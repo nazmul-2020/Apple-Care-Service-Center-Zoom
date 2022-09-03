@@ -7,16 +7,16 @@ const Header = () => {
         <div>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar href="/" className='fw-bold'>
+                    <Navbar href="/" className='p-0'>
                         <img
                             alt=""
                             src={logo}
-                            width="70"
-                            height="78"
+                            width="20"
+                            height="28"
                             className="d-inline-block align-top"
                         />{' '}
                         <div className='ms-2'>
-                            <h1 className='fw-bold m-0'>iCare Apple</h1>
+                            <h5 className='fw-bold m-0'>iCare Apple</h5>
                             <p className='m-0'><small>The Best Apple Fix Eve</small></p>
                         </div>
                     </Navbar>
