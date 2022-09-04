@@ -15,10 +15,9 @@ const Banner = () => {
                     </div >
 
                     {/* ------------ Search bar --------------------*/}
-                    <div className='sticky-top pt-1 '>
-                        <input class="form-control mx-auto mt-3 rounded-pill w-50  " type="search" placeholder="Search Products" aria-label="Search"></input>
+                    <div className='position-relative pt-1 '>
+                        <input class="form-control mx-auto mt-3 rounded-pill w-50 sticky-top" type="search" placeholder="Search Products" aria-label="Search"></input>
                     </div>
-
 
                 </div>
                 

@@ -6,7 +6,6 @@ import logo from '../../../assets/Images/logo.png';
 const Footer = () => {
     return (
         <div className='mt-5'>
-            <h1>Footer</h1>
             <footer className='container'>
                 <div className='row g-4'>
                     <div className='col-lg-3 col-md-6 col-12  g-4'>
@@ -67,7 +66,7 @@ const Footer = () => {
                                 aria-label="Recipient's username"
                                 aria-describedby="basic-addon2"
                             />
-                            <InputGroup.Text id="basic-addon2"className='btn btn-outline-dark'>Subscribe</InputGroup.Text>
+                            <InputGroup.Text id="basic-addon2" className='btn btn-outline-dark'>Subscribe</InputGroup.Text>
                         </InputGroup>
                         <div className='mt-5'>
                             <h6>STAY CONNECTED</h6>
