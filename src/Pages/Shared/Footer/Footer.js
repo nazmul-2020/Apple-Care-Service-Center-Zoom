@@ -1,6 +1,7 @@
 import React from 'react';
 import { Form, InputGroup } from 'react-bootstrap';
-import logo from '../../../assets/Images/logo.png'
+import logo from '../../../assets/Images/logo.png';
+// import { AiFillTwitterCircle } from "react-icons/hi";
 
 const Footer = () => {
     return (
@@ -72,6 +73,9 @@ const Footer = () => {
                             <h6>STAY CONNECTED</h6>
                             <p>Follow us along on social media and stay updated with all things AS.</p>
                             <p>Icon</p>
+                            {/* <AiFillTwitterCircle/> */}
+                            {/* <AiOutlineTwitter/> */}
+                            {/* <FaBeer/> */}
                         </div>
                     </div>
 
