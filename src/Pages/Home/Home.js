@@ -5,6 +5,7 @@ import MobileRepair from './Banner/MobileRepair/MobileRepair';
 import BusinessSummary from './BusinessSummary/BusinessSummary';
 import Information from './Information/Information';
 import ProfessionalRepair from './ProfessionalRepair/ProfessionalRepair';
+import ScheduleRepair from './ScheduleRepair/ScheduleRepair';
 // import Test from './Banner/Test';
 
 const Home = () => {
@@ -15,7 +16,8 @@ const Home = () => {
             <BusinessSummary/>
             <Information/>
             <MobileRepair/>
-            <ProfessionalRepair/>            
+            <ProfessionalRepair/>
+            <ScheduleRepair/>            
             
         </div>
     );
