@@ -5,11 +5,11 @@ const BusinessSummary = () => {
         <div className='container'>
             <h1>Business <span className='text-info'>Summary</span></h1>
 
-            <div className='row g-4'>
-                <div className='col col-md-6 col-lg-3 bg-dark g-4' >1</div>
-                <div className='col col-md-6 col-lg-3 bg-info g-4' >1</div>
-                <div className='col col-md-6 col-lg-3 g-4' >1</div>
-                <div className='col col-md-6 col-lg-3 bg-dark g-4' >1</div>
+            <div className='row gap-4'>
+                <div className='col col-md-6 col-lg-3 bg-dark gap-4' >1</div>
+                <div className='col col-md-6 col-lg-3 bg-info gap-4' >1</div>
+                <div className='col col-md-6 col-lg-3 gap-4' >1</div>
+                <div className='col col-md-6 col-lg-3 bg-dark gap-4' >1</div>
             </div>
 
         </div>
