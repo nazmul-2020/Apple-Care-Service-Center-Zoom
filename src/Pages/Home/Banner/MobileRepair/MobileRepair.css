@@ -13,3 +13,14 @@
     /* height: 500px; */
     background-color: rgba(35, 32, 32, 0.666);
 }
+
+
+.cardBody{
+    background-color: transparent;
+}
+
+.cardBody img{
+    width: 120px;
+    display:block;
+    margin: 0 auto;
+}
