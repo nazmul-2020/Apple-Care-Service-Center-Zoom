@@ -4,7 +4,6 @@ import './Videos.css'
 const Videos = () => {
     return (
         <div className=' my-4'>
-            <h1>videos</h1>
             <div className='container my-4'>
                 <div className='row g-4'>
                     <div className='col col-md-12 col-lg-6 '>
