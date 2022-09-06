@@ -5,7 +5,7 @@ import logo from '../../../assets/Images/logo.png'
 const Header = () => {
     return (
         <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="light fixed-top" expand="lg">
                 <Container>
                     <Navbar href="/" className='p-0'>
                         <img
@@ -17,7 +17,7 @@ const Header = () => {
                         />{' '}
                         <div className='ms-2'>
                             <h5 className='fw-bold m-0'>iCare Apple</h5>
-                            <p className='m-0'><small>The Best Apple Fix Eve</small></p>
+                            {/* <p className='m-0'><small>The Best Apple Fix Eve</small></p> */}
                         </div>
                     </Navbar>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

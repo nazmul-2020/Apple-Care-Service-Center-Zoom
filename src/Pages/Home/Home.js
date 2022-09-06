@@ -4,6 +4,7 @@ import About from './About/About';
 import Banner from './Banner/Banner';
 import MobileRepair from './Banner/MobileRepair/MobileRepair';
 import BusinessSummary from './BusinessSummary/BusinessSummary';
+import CustomerReview from './CustomerReview/CustomerReview';
 import Information from './Information/Information';
 import Location from './Location/Location';
 import ProfessionalRepair from './ProfessionalRepair/ProfessionalRepair';
@@ -23,7 +24,8 @@ const Home = () => {
             <ScheduleRepair />
             <Videos/> 
             <IcareApple/>
-            <Location/>     
+            <Location/> 
+            <CustomerReview/>    
 
         </div>
     );

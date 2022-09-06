@@ -3,11 +3,11 @@ import banner from '../../../assets/Images/banner.png'
 
 const Banner = () => {
     return (
-        <div className='mt-4'>
+        <div className='pt-5'>
             <div className=''>
-                <div className='container'>
-                    <div className='text-center'>
-                        <span className='fw-bold'>PRODUCTS </span>
+                <div className='container mt-5'>
+                    <div className='text-center '>
+                        <span className='fw-bold class="modal-dialog'>PRODUCTS </span>
                         <span className='mx-1'>|</span>
                         <span className='fw-bold'>SERVICE </span>
                         <span className='mx-1'>|</span>

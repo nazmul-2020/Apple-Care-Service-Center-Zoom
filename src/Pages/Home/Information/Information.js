@@ -1,4 +1,10 @@
 import React from 'react';
+import laptop from '../../../assets/Icon/laptop.png'
+import mobilePh from '../../../assets/Icon/mobile-phone 1.png'
+import monitor from '../../../assets/Icon/monitor 1.png'
+import watch from '../../../assets/Icon/watch.png'
+import tablet from '../../../assets/Icon/tablet-device 3.png'
+// import { IoIosLaptop } from "@react-icons/all-files/fa/IoIosLaptop";
 
 const Information = () => {
     return (
@@ -13,55 +19,49 @@ const Information = () => {
                     <div class="row g-3 mt-3">
                         <div class="col col-md-3 col-lg-2">
                             <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="card-body text-center">
+                                <img className='d-block mx-auto' src={laptop} alt="" />
+                                <small>Laptop</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col col-md-3 col-lg-2">
                             <div class="card">
-                                <div class="card-body">
-                                    <h5 class="crd-title">Special title treatment</h5>
-                                    <p class="car-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="card-body text-center">
+                                <img className='d-block mx-auto' src={mobilePh} alt="" />
+                                <small>Mobile Phone</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col col-md-3 col-lg-2">
                             <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="card-body text-center">
+                                <img className='d-block mx-auto' src={monitor} alt="" />
+                                <small>Monitor</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col col-md-3 col-lg-2">
                             <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="card-body text-center">
+                                <img className='d-block mx-auto' src={watch} alt="" />
+                                <small>Watch</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col col-md-3 col-lg-2">
                             <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="card-body text-center">
+                                <img className='d-block mx-auto' src={laptop} alt="" />
+                                <small>Laptop</small>
                                 </div>
                             </div>
                         </div>
                         <div class="col col-md-3 col-lg-2">
                             <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="card-body text-center">
+                                <img className='d-block mx-auto' src={tablet} alt="" />
+                                <small>Tablet</small>
                                 </div>
                             </div>
                         </div>
