@@ -1,25 +1,27 @@
 import React from 'react';
-import { Form, InputGroup } from 'react-bootstrap';
 import logo from '../../../assets/Images/logo.png';
-// import { AiFillTwitterCircle } from "react-icons/hi";
+import { AiFillHome } from "react-icons/ai";
+import { HiMail } from 'react-icons/hi';
+import { BsFillTelephoneInboundFill, } from 'react-icons/bs';
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='mt-5'>
-            <footer className='container'>
+        <div className='mt-4'>
+            <footer className='footer'>
+                <div className='container'>
                 <div className='row g-4'>
                     <div className='col-lg-3 col-md-6 col-12  g-4'>
                         <div className='d-flex align-items-center'>
                             <img
                                 alt=""
                                 src={logo}
-                                width="70"
-                                height="78"
+                                width="20"
+                                height="28"
                                 className="d-inline-block align-top"
                             />{' '}
                             <div className='ms-2'>
-                                <h3 className='fw-bold m-0'>iCare Apple</h3>
-                                <p className='m-0'><small>The Best Apple Fix Eve</small></p>
+                                <h5 className='fw-bold m-0'>iCare Apple</h5>
                             </div>
                         </div>
                         <div className=''>
@@ -34,11 +36,6 @@ const Footer = () => {
                                     <p className='mb-0'>FAQs</p>
                                     <p className='mb-0'>Contact Us</p>
                                 </div>
-                            </div>
-                            <div className='mt-3'>
-                                <p><small>890 Dhaka. Mohammadpur, Rd No.07</small></p>
-                                <p className='mb-0'><small>740-525-5705</small></p>
-                                <p><small>info@thezoomit.com</small></p>
                             </div>
                         </div>
                         <div></div>
@@ -58,26 +55,15 @@ const Footer = () => {
                         <p className='mb-0'>Visit our pricing page for model specific details.</p>
                     </div>
                     <div className='col-lg-3 col-md-6 col-12 g-4 text-end'>
-                        <h6>STAY IN TOUCH</h6>
-                        <p>Receive 15% off your first order. Be the first to see what's new and exclusive offers.</p>
-                        <InputGroup className="mb-3">
-                            <Form.Control
-                                placeholder="username@site.com"
-                                aria-label="Recipient's username"
-                                aria-describedby="basic-addon2"
-                            />
-                            <InputGroup.Text id="basic-addon2" className='btn btn-outline-dark'>Subscribe</InputGroup.Text>
-                        </InputGroup>
-                        <div className='mt-5'>
-                            <h6>STAY CONNECTED</h6>
-                            <p>Follow us along on social media and stay updated with all things AS.</p>
-                            <p>Icon</p>
-                            {/* <AiFillTwitterCircle/> */}
-                            {/* <AiOutlineTwitter/> */}
-                            {/* <FaBeer/> */}
-                        </div>
+                        <p className='mb-0'><AiFillHome className='me-1'/> Level-4, 34, Awal Centre, Banani, Dhaka</p>
+                        <p className='mb-0'><HiMail className='me-1'/> <span className='fw-bold'>Official:</span> iCareApple@gmail.com  </p>
+                        <p className='mb-0 '><BsFillTelephoneInboundFill className='me-1'/> <span className='fw-bold'>Helpline</span> : 01722987867 (Available : Sat - Thu, 10:00 AM to 7:00 PM)</p>
                     </div>
 
+                </div>
+                <div>
+
+                </div>
                 </div>
             </footer>
         </div>

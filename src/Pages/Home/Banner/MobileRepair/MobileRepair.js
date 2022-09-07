@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
 import d1 from '../../../../assets/Icon/d1 1.png'
 import d2 from '../../../../assets/Icon/d2 1.png'
 import d3 from '../../../../assets/Icon/d3 (1).png'

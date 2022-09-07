@@ -1,5 +1,5 @@
 import React from 'react';
-import iphoneWatch from '../../../assets/Images/iphone-watch.png'
+import repair from '../../../assets/Images/repair.png'
 
 const ScheduleRepair = () => {
     return (
@@ -57,7 +57,7 @@ const ScheduleRepair = () => {
                         </div>
                    
                     <div className='col col-md-6 col-lg-6  '>
-                        <img className='w-100' src={iphoneWatch} alt="" />
+                        <img className='w-100' src={repair} alt="" />
                     </div>
                 </div>
             </div>

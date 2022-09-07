@@ -1,11 +1,12 @@
 import React from 'react';
 import TSJR from '../../../assets/Images/TSJR 1.png'
 import { HiChevronRight } from "react-icons/hi";
+import './About.css'
 
 
 const About = () => {
     return (
-        <div className='my-5'>
+        <div className='py-5 aboutBanner'>
             <div className='row container mx-auto'>
                 <div className='col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center'>
                     <div>

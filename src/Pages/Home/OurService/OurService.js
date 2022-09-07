@@ -8,7 +8,7 @@ import './OurService.css'
 
 const OurService = () => {
     return (
-        <div className='mt-5'>
+        <div className='mt-1 py-3 newArrival'>
             <div className='container'>
                 <div className="row text-center">
                     <div className="col col-md-6 col-lg-3">

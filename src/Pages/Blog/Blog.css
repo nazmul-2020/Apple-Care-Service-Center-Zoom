@@ -1,0 +1,10 @@
+.blogBanner{
+    background-image: url(../../assets/Images/blog_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height:300px;
+    /* opacity: 0.8; */
+    
+}

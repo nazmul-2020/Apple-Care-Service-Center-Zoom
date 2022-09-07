@@ -22,11 +22,11 @@ const Header = () => {
                     </Navbar>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
-                            <Nav.Link href="#home">About Us</Nav.Link>
+                        <Nav className="ms-auto fw-bold">
+                            <Nav.Link href="/">About Us</Nav.Link>
                             <Nav.Link href="#link">Contact Us</Nav.Link>
                             <Nav.Link href="#home">Carts</Nav.Link>
-                            <Nav.Link href="#home">Blog</Nav.Link>
+                            <Nav.Link href="/blog">Blog</Nav.Link>
                             <Nav.Link href="#link" className=''>Log In</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

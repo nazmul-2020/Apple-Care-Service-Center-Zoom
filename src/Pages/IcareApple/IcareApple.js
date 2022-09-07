@@ -3,7 +3,7 @@ import iPhone_X from '../../assets/Images/iPhone-X.png';
 
 const IcareApple = () => {
     return (
-        <div className='my-1'>
+        <div className='my-1 py-3 banner'>
             <div className='container'>
                 <h3 className='text-center'>Why Choose <span className='text-info'>iCare Apple ?</span></h3>
 

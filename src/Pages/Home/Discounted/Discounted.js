@@ -12,7 +12,7 @@ import iPhon from '../../../assets/Images/iPhone-X.png'
 
 const Discounted = () => {
     return (
-        <div className='my-5'>
+        <div className='py-5 newArrival'>
             <div className='container'>
                 <h3 className='text-center'><span className='text-info'>MOST</span> DISCOUNTED</h3>
                 <div className='my-3 text-center'>
@@ -39,6 +39,7 @@ const Discounted = () => {
                                 <Card.Img variant="top" className='w-100' src={iPhon} />
                                 <Card.Body>
                                     <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                    <p>999 Tk</p>
                                     <Button variant="primary">Add to Card</Button>
                                 </Card.Body>
                             </Card>
@@ -50,6 +51,7 @@ const Discounted = () => {
                                 <Card.Img variant="top" className='w-100' src={iPhon} />
                                 <Card.Body>
                                     <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                    <p>999 Tk</p>
                                     <Button variant="primary">Add to Card</Button>
                                 </Card.Body>
                             </Card>
@@ -61,6 +63,7 @@ const Discounted = () => {
                                 <Card.Img variant="top" className='w-100' src={iPhon} />
                                 <Card.Body>
                                     <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                    <p>999 Tk</p>
                                     <Button variant="primary">Add to Card</Button>
                                 </Card.Body>
                             </Card>
@@ -72,6 +75,7 @@ const Discounted = () => {
                                 <Card.Img variant="top" className='w-100' src={iPhon} />
                                 <Card.Body>
                                     <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                    <p>999 Tk</p>
                                     <Button variant="primary">Add to Card</Button>
                                 </Card.Body>
                             </Card>
@@ -83,6 +87,7 @@ const Discounted = () => {
                                 <Card.Img variant="top" className='w-100' src={iPhon} />
                                 <Card.Body>
                                     <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                    <p>999 Tk</p>
                                     <Button variant="primary">Add to Card</Button>
                                 </Card.Body>
                             </Card>
@@ -94,6 +99,7 @@ const Discounted = () => {
                                 <Card.Img variant="top" className='w-100' src={iPhon} />
                                 <Card.Body>
                                     <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                    <p>999 Tk</p>
                                     <Button variant="primary">Add to Card</Button>
                                 </Card.Body>
                             </Card>

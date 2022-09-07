@@ -1,9 +1,11 @@
 import React from 'react';
 import banner from '../../../assets/Images/banner.png'
+import './banner.css'
+import { AiOutlineSearch } from 'react-icons/ai';
 
 const Banner = () => {
     return (
-        <div className='pt-5'>
+        <div className='pt-5 banner'>
             <div className=''>
                 <div className='container mt-5'>
                     <div className='text-center '>
@@ -15,12 +17,13 @@ const Banner = () => {
                     </div >
 
                     {/* ------------ Search bar --------------------*/}
-                    <div className='position-relative pt-1 '>
-                        <input class="form-control mx-auto mt-3 rounded-pill w-50 sticky-top" type="search" placeholder="Search Products" aria-label="Search"></input>
+                    <div className=' pt-1 sIconP'>
+                        <input class="form-control mx-auto mt-3 rounded-pill w-50 sticky-top" type="search" placeholder="Search Products" aria-label="Search" >
+                        </input>
                     </div>
 
                 </div>
-                
+
                 <div className='row m-0'>
                     <div className='col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center '>
                         <div className=''>
