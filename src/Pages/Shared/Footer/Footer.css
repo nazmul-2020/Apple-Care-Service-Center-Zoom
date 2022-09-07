@@ -1,4 +1,7 @@
 .footer{
-    background: #f2f2f2aa;
-    
+    background: #f2f2f2aa; 
+}
+
+.footer-icon{
+    font-size: 25px;
 }
