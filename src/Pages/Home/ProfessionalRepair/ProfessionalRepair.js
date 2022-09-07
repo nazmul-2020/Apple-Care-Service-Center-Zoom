@@ -3,7 +3,7 @@ import servesMan from '../../../assets/Images/servesMan.png'
 
 const ProfessionalRepair = () => {
     return (
-        <div className='my-5'>
+        <div className='py-5 banner'>
             <div className='container'>
                 <div className='row'>
                     <div className='col col-md-12 col-lg-6 d-flex align-items-center '>

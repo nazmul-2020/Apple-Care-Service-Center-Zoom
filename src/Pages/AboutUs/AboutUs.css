@@ -1,0 +1,20 @@
+.aboutUsBanner{
+    background-image: url(../../assets/Images/aboutUsBanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    height:300px;
+}
+.aboutContactBanner{
+    background-image: url(../../assets/Images/aboutContactBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.messageField{
+    height: 150px;
+}

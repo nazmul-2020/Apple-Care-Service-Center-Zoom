@@ -1,4 +1,5 @@
 import { Routes, Route} from "react-router-dom";
+import AboutUs from "./Pages/AboutUs/AboutUs";
 import Blog from "./Pages/Blog/Blog";
 import Home from "./Pages/Home/Home";
 import Footer from "./Pages/Shared/Footer/Footer";
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/aboutUs" element={<AboutUs/>} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer/>

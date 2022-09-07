@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar} from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../../../assets/Images/logo.png'
 
 const Header = () => {
@@ -7,7 +7,8 @@ const Header = () => {
         <div>
             <Navbar bg="light fixed-top" expand="lg">
                 <Container>
-                    <Navbar href="/" className='p-0'>
+
+                    <Navbar.Brand className='fw-bold' href="/">
                         <img
                             alt=""
                             src={logo}
@@ -15,15 +16,12 @@ const Header = () => {
                             height="28"
                             className="d-inline-block align-top"
                         />{' '}
-                        <div className='ms-2'>
-                            <h5 className='fw-bold m-0'>iCare Apple</h5>
-                            {/* <p className='m-0'><small>The Best Apple Fix Eve</small></p> */}
-                        </div>
-                    </Navbar>
+                        iCare Apple
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto fw-bold">
-                            <Nav.Link href="/">About Us</Nav.Link>
+                            <Nav.Link href="/aboutUs">About Us</Nav.Link>
                             <Nav.Link href="#link">Contact Us</Nav.Link>
                             <Nav.Link href="#home">Carts</Nav.Link>
                             <Nav.Link href="/blog">Blog</Nav.Link>
