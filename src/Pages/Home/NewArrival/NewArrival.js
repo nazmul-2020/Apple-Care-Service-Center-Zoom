@@ -10,6 +10,7 @@ import './NewArrival.css'
 import { FreeMode, Navigation, Pagination } from 'swiper';
 import iPhon_X from '../../../assets/Images/iPhone-X.png'
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NewArrival = () => {
     return (
@@ -42,7 +43,11 @@ const NewArrival = () => {
                                     <Card.Body>
                                         <Card.Title>iPhone Xr/11 Curved</Card.Title>
                                         <p>999 Tk</p>
-                                        <Button variant="primary">Add to Card</Button>
+                                            <Link className='text-decoration-none' to='/one'>
+                                        <Button variant="primary">
+                                                Add to Card
+                                            </Button>
+                                                </Link>
                                     </Card.Body>
                                 </Card>
                             </div>

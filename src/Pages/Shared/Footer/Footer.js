@@ -5,7 +5,6 @@ import { ImLocation } from 'react-icons/im';
 import { BsFacebook, BsFillTelephoneFill,BsLinkedin, } from 'react-icons/bs';
 import zoomit from '../../../assets/Images/zoom.png'
 import './Footer.css'
-import { Icon } from '@iconify/react';
 
 const Footer = () => {
     return (
@@ -46,7 +45,7 @@ const Footer = () => {
                 <hr />
                 <div className='container'>
                 <div className='row'>
-                   <div className='col col-md-6 col-lg-6'>
+                   <div className='col col-md-6 col-lg-6 text-start'>
                    <p>Copyright © 2021 iCare Apple . All Rights Reserved.</p>
                    </div>
                     <div className='col col-md-6 col-6 text-end '>

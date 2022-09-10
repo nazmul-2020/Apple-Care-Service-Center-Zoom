@@ -4,6 +4,7 @@ import mobilePh from '../../../assets/Icon/mobile-phone 1.png'
 import monitor from '../../../assets/Icon/monitor 1.png'
 import watch from '../../../assets/Icon/watch.png'
 import tablet from '../../../assets/Icon/tablet-device 3.png'
+import { Link } from "react-router-dom";
 import './Information.css'
 // import { IoIosLaptop } from "@react-icons/all-files/fa/IoIosLaptop";
 
@@ -23,48 +24,61 @@ const Information = () => {
                                 <div class="col col-md-3 col-lg-2">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <img className='d-block mx-auto' src={laptop} alt="" />
-                                            <small>Laptop</small>
+                                            <Link to='/iPhone' className='text-decoration-none'>
+                                                <img width='70' height='70' className='d-block mx-auto' src={mobilePh} alt="" />
+                                                <small className='fw-bold text-dark'>iPhone</small>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col col-md-3 col-lg-2">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <img className='d-block mx-auto' src={mobilePh} alt="" />
-                                            <small>Mobile Phone</small>
+                                            <Link className='text-decoration-none' to='/macBook'>
+                                                <img width='70' height='70' className='d-block mx-auto' src={laptop} alt="" />
+                                                <small className='fw-bold text-dark'>iMacBook</small>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col col-md-3 col-lg-2">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <img className='d-block mx-auto' src={monitor} alt="" />
-                                            <small>Monitor</small>
+                                            <Link to='/iMac' className='text-decoration-none'>
+                                                <img width='70' height='70' className='d-block mx-auto' src={monitor} alt="" />
+                                                <small className='fw-bold text-dark'>iMac</small>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col col-md-3 col-lg-2">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <img className='d-block mx-auto' src={watch} alt="" />
-                                            <small>Watch</small>
+                                            <Link to='/watch' className='text-decoration-none'>
+                                                <img width='70' height='70' className='d-block mx-auto' src={watch} alt="" />
+                                                <small className='fw-bold text-dark'>Watch</small>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-md-3 col-lg-2">
+                                    <div class="card">
+
+                                        <div class="card-body text-center">
+                                            <Link to='/iPad' className='text-decoration-none'>
+                                                <img width='70' height='70' color className='d-block mx-auto' src={tablet} alt="" />
+                                                <small className='fw-bold text-dark'>iPad</small>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col col-md-3 col-lg-2">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <img className='d-block mx-auto' src={laptop} alt="" />
-                                            <small>Laptop</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col col-md-3 col-lg-2">
-                                    <div class="card">
-                                        <div class="card-body text-center">
-                                            <img className='d-block mx-auto' src={tablet} alt="" />
-                                            <small>Tablet</small>
+                                            <Link to='/iPhoneUnlock' className='text-decoration-none'>
+                                                <img width='70' height='70' className='d-block mx-auto' src={laptop} alt="" />
+                                                <small className='fw-bold text-dark'>iPhone Unlock</small>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
