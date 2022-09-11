@@ -86,7 +86,7 @@ const IPhoneId = () => {
                         <div className='col col-md- col-lg-10'>
                             <div className='row g-2'>
                                 <div className='col- col-md-6 col-lg-2'>
-                                    <Link className='text-decoration-none text-dark' to='/'>
+                                    <Link className='text-decoration-none text-dark' to='/iPhoneBattery'>
                                         <div className='bg-light shadow p-1 border border-warning '>
                                             <img className='d-block mx-auto ' width='100' height='100' src={Battery_Replacement} alt="" />
                                             <h6 className='text-center mt-3'>Battery Replacement</h6>

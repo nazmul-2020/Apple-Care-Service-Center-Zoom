@@ -17,46 +17,46 @@ const MobileRepair = () => {
                         <p className='w-50 mx-auto text-white'>Once you've found and reached iCare Apple to repair your important devices, you don't need to be worried. We'll be careful as much as you are...</p>
 
                         <div className='row g-3 mx-auto mt- text-white'>
-                            <div class="col col-md-6 col-lg-4">
-                                <div class="card cardBody border-0">
+                            <div className="col col-md-6 col-lg-4">
+                                <div className="card cardBody border-0">
                                     <img src={d1} alt="" />
-                                    <h5 class="crd-title">Liquid Damage</h5>
-                                    <p class="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
+                                    <h5 className="crd-title">Liquid Damage</h5>
+                                    <p className="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
                                 </div>
                             </div>
-                            <div class="col col-md-6 col-lg-4">
-                                <div class="card cardBody border-0">
+                            <div className="col col-md-6 col-lg-4">
+                                <div className="card cardBody border-0">
                                     <img src={d2} alt="" />
-                                    <h5 class="crd-title">Liquid Damage</h5>
-                                    <p class="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
+                                    <h5 className="crd-title">Liquid Damage</h5>
+                                    <p className="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
                                 </div>
                             </div>
-                            <div class="col col-md-6 col-lg-4">
-                                <div class="card cardBody border-0">
+                            <div className="col col-md-6 col-lg-4">
+                                <div className="card cardBody border-0">
                                     <img src={d3} alt="" />
-                                    <h5 class="crd-title">Liquid Damage</h5>
-                                    <p class="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
+                                    <h5 className="crd-title">Liquid Damage</h5>
+                                    <p className="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
                                 </div>
                             </div>
-                            <div class="col col-md-6 col-lg-4">
-                                <div class="card cardBody border-0">
+                            <div className="col col-md-6 col-lg-4">
+                                <div className="card cardBody border-0">
                                     <img src={d4} alt="" />
-                                    <h5 class="crd-title">Liquid Damage</h5>
-                                    <p class="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
+                                    <h5 className="crd-title">Liquid Damage</h5>
+                                    <p className="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
                                 </div>
                             </div>
-                            <div class="col col-md-6 col-lg-4">
-                                <div class="card cardBody border-0">
+                            <div className="col col-md-6 col-lg-4">
+                                <div className="card cardBody border-0">
                                     <img src={d5} alt="" />
-                                    <h5 class="crd-title">Liquid Damage</h5>
-                                    <p class="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
+                                    <h5 className="crd-title">Liquid Damage</h5>
+                                    <p className="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
                                 </div>
                             </div>
-                            <div class="col col-md-6 col-lg-4">
-                                <div class="card cardBody border-0">
+                            <div className="col col-md-6 col-lg-4">
+                                <div className="card cardBody border-0">
                                     <img src={d1} alt="" />
-                                    <h5 class="crd-title">Liquid Damage</h5>
-                                    <p class="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
+                                    <h5 className="crd-title">Liquid Damage</h5>
+                                    <p className="car-text">Wrost thing that can happen to your device is get damaged by liquid. Sooner you bring it to us is better for your device.</p>
                                 </div>
                             </div>
                         </div>

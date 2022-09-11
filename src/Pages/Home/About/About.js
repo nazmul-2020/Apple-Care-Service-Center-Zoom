@@ -12,7 +12,7 @@ const About = () => {
                     <div>
                         <h3 className='w-75'>We Can iCare Apple Almost As Fast As You Can Break It</h3>
                         <p>To solve any kind of problem-related to your Apple devices, we have all kinds of modern technologies, a highly developed lab, and skilled technicians.</p>
-                        <button type="button" class="btn btn-outline-dark rounded-pill">About Us <HiChevronRight className='fs-3'/>
+                        <button type="button" className="btn btn-outline-dark rounded-pill">About Us <HiChevronRight className='fs-3'/>
                         </button>
                     </div>
                 </div>

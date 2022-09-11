@@ -9,8 +9,8 @@ const Location = () => {
                 <div className="row g-4">
                     <div className='col col-md-6 col-lg-6 '>
                         <div>
-                            <div class="mapouter w-100">
-                                <div class="gmap_canvas ">
+                            <div className="mapouter w-100">
+                                <div className="gmap_canvas ">
                                     <iframe width="100%" height="315" id="gmap_canvas" src="https://maps.google.com/maps?q=Bosila,Mohamudpur,Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                                     </iframe>
                                     <a href="https://2piratebay.org"></a>

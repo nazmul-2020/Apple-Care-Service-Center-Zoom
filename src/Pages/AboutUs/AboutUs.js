@@ -34,8 +34,8 @@ const AboutUs = () => {
                         <input className='w-50 p-2 me-2 border-info' placeholder="Name" type="name" name="" id="" />
                         <input className='w-50 ms-2  border-info' type="email" placeholder='Email' name="" id="" />
                     </div>
-                    <textarea class="mt-3 w-100 messageField border-info" placeholder="Message"></textarea>
-                    <button type="button" class="btn btn-info d-block mx-auto mt-3">Send Message</button>
+                    <textarea className="mt-3 w-100 messageField border-info" placeholder="Message"></textarea>
+                    <button type="button" className="btn btn-info d-block mx-auto mt-3">Send Message</button>
 
                 </div>
             </div>
