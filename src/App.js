@@ -20,6 +20,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        {/*---------------- Category Route start------------------ */}
         <Route path="/macBook" element={<MacBook />}></Route>
         <Route path="/iPhone" element={<IPhone />}></Route>
         <Route path="/iPhoneId" element={<IPhoneId/>}></Route>
@@ -27,6 +28,7 @@ function App() {
         <Route path="/watch" element={<Watch />}></Route>
         <Route path="/iPhoneUnlock" element={<IPhoneUnlock />}></Route>
         <Route path="/iPad" element={<IPad />}></Route>
+        {/*---------------- Category Route start------------------ */}
         <Route path="/aboutUs" element={<AboutUs />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
