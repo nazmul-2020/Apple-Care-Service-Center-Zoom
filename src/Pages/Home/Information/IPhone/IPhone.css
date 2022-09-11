@@ -1,0 +1,7 @@
+.iPhoneBanner{
+    background-image: url(../../../../assets/Images/mobileRepair.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:300px;
+}
