@@ -3,6 +3,17 @@ import { Link } from 'react-router-dom';
 import iphone_13 from '../../../../../assets/Images/iPhoneRepair/iphone-13-pro-max.png'
 import { BiArrowBack } from "react-icons/bi";
 import './IPhoneId.css'
+import Battery_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Battery_Replacement.png'
+import Display_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Display_Replacement.png'
+import Back_Glass_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Back_Glass_Replacement.png'
+import Charging_Dock_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Charging_Dock_Replacement.png'
+import Cleaning_Service from '../../../../../assets/Images/iPhoneRepair/one/Cleaning_Service.png'
+import Ear_Speaker_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Ear_Speaker_Replacement.png'
+import Face_ID_issue from '../../../../../assets/Images/iPhoneRepair/one/Face_ID_issue.png'
+import Front_Camera_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Front_Camera_Replacement.png'
+import Mic_Issue from '../../../../../assets/Images/iPhoneRepair/one/Mic Issue.png'
+import Proximity_Sensor_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Proximity Sensor Replacement.png'
+
 
 const IPhoneId = () => {
     return (
@@ -48,9 +59,136 @@ const IPhoneId = () => {
                         </div>
                     </div>
                 </div>
-                
-                <h4 className='w-75 mx-auto mt-4 '><Link className='text-info' to='/iPhone'><BiArrowBack className=''/><span className='ms-2' >Back</span></Link></h4>
+                <div className='mt-5'>
+                    <h4 className='w-75 ms-3 mb- mt-4 '><Link className='text-info' to='/iPhone'><BiArrowBack className='' /><span className='ms-2' >Back</span></Link></h4>
+                    <div className='row g-3'>
+                        <div className='col col-md- col-lg-2 '>
+                            <div className='bg-i text-center'>
+                                <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro Max</p>
+                                <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro</p>
+                                <p className='p-2 fw-bold iphoneP'>iPhone 13</p>
+                                <p className='p-2 fw-bold iphoneP'>iPhone 13 Mini</p>
+                                <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro Max</p>
+                                <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro</p>
+                                <p className='p-2 fw-bold iphoneP'>iPhone 12 </p>
+                                <p className='p-2 fw-bold iphoneP'>iPhone 12 Mini</p>
+                            </div>
+                        </div>
+                        <div className='col col-md- col-lg-10'>
+                            <div className='row g-2'>
+                                <div className='col- col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='100' src={Battery_Replacement} alt="" />
+                                            <h6 className='text-center mt-3'>Battery Replacement</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col- col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='100' src={Display_Replacement} alt="" />
+                                            <h6 className='text-center mt-3'>Display Replacement</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col- col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='100' src={Back_Glass_Replacement} alt="" />
+                                            <h6 className='text-center mt-3'>Back Glass Replacement</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col- col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='100' src={Charging_Dock_Replacement} alt="" />
+                                            <h6 className='text-center mt-3'>Charging Dock Replacement</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col-col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='120' src={Cleaning_Service} alt="" />
+                                            <h6 className='text-center mt-3'>Cleaning Service</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col- col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='100' src={Ear_Speaker_Replacement} alt="" />
+                                            <h6 className='text-center mt-3'>Ear Speaker Replacement</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col-col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='120' src={Face_ID_issue} alt="" />
+                                            <h6 className='text-center mt-3'>FaceID issue</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col-col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='100' src={Front_Camera_Replacement} alt="" />
+                                            <h6 className='text-center mt-3'>Front Camera Replacement</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col- col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='100' src={Display_Replacement} alt="" />
+                                            <h6 className='text-center mt-3'>Upper Glass Replacement</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col- col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='120' src={Mic_Issue} alt="" />
+                                            <h6 className='text-center mt-3'>Mic Issue</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                                <div className='col-col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='100' src={Proximity_Sensor_Replacement} alt="" />
+                                            <h6 className='text-center mt-3'>Proximity Sensor Replacement</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+                                <div className='col- col-md-6 col-lg-2'>
+                                    <Link className='text-decoration-none text-dark' to='/'>
+                                        <div className='bg-light shadow p-1 border border-info '>
+                                            <img className='d-block mx-auto ' width='100' height='100' src={Battery_Replacement} alt="" />
+                                            <h6 className='text-center mt-3'>Battery Replacement</h6>
+                                        </div>
+                                    </Link>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     );
 };
