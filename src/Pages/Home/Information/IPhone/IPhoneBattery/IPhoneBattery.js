@@ -18,9 +18,9 @@ const IPhoneBattery = () => {
             <div className='container mt-4'>
                 <h3 className='text-center mb-2'>iPhone 13 Pro Max Battery Replacement</h3>
                 <div className='my-3 w-50 mx-auto'>
-                    <Link to='/' className='text-decoration-none text-dark'>
-                        <div class="card shadow mx-auto" style={{ width: '18rem' }}>
-                            <img src={iphone13proMaxBattery} class="card-img-top" alt="..." height='150' width='' />
+                    <Link to='/iPhoneBatterId' className='text-decoration-none text-dark'>
+                        <div class="card shadow mx-auto" style={{ width: '15rem'}}>
+                            <img src={iphone13proMaxBattery} class="card-img-top" alt="..." height='180' width='' />
                             <div class="card-body">
                                 <h5 class="card-title">iPhone 13 Pro Max Original Battery</h5>
                                 <p class="card-text">Assemble charge: 1000 TK</p>
@@ -40,7 +40,7 @@ const IPhoneBattery = () => {
                             <li>Increase in Battery Thickness: The iPhone 13 Pro Max battery gets swollen/ increases in thickness after using it for an extended period of time. When a battery gets swollen, it runs the risk of damaging the phone. It should be replaced immediately because it is also a sign that the battery has run its course.</li>
                     </ol>
                     <div>
-                        <p>If your iPhone 13 Pro Max faces any such issues with the battery, you need to get it looked at by professionals here at ifixit bd. ifixit bd specializes in iPhone-related issues. Here at ifixit bd, we provide original battery replacements for your iPhone 13 Pro Max battery issues at a very reasonable price. We also offer quick service and provide a warranty on each of our services regarding your iPhone 13 Pro Max battery. We ensure our quality for the price you pay and guarantee that you will love our services. ifixit BD has 4 service points ranging in Dhaka, Bangladesh.</p>
+                        <p>If your iPhone 13 Pro Max faces any such issues with the battery, you need to get it looked at by professionals here at iCareApple bd. iCareApple bd specializes in iPhone-related issues. Here at iCareApple bd, we provide original battery replacements for your iPhone 13 Pro Max battery issues at a very reasonable price. We also offer quick service and provide a warranty on each of our services regarding your iPhone 13 Pro Max battery. We ensure our quality for the price you pay and guarantee that you will love our services. iCareApple BD has 4 service points ranging in Dhaka, Bangladesh.</p>
                     </div>
                     <p><Link to='/contact' className='fs-5 fw-bold text-dark'>Our Locations</Link></p>
                 </div>

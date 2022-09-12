@@ -6,6 +6,7 @@ import Home from "./Pages/Home/Home";
 import IPad from "./Pages/Home/Information/IPad";
 import IPhone from "./Pages/Home/Information/IPhone/IPhone";
 import IPhoneBattery from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneBattery.js";
+import IPhoneBatteryId from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneBatteryId";
 import IPhoneId from "./Pages/Home/Information/IPhone/IPhoneId/IPhoneId";
 import IPhoneUnlock from "./Pages/Home/Information/IPhoneUnlock";
 import Mac from "./Pages/Home/Information/Mac";
@@ -26,6 +27,7 @@ function App() {
         <Route path="/iPhone" element={<IPhone />}></Route>
         <Route path="/iPhoneId" element={<IPhoneId/>}></Route>
         <Route path="/iPhoneBattery" element={<IPhoneBattery/>}></Route>
+        <Route path="/iPhoneBatterId" element={<IPhoneBatteryId/>}></Route>
         <Route path="/iMac" element={<Mac />}></Route>
         <Route path="/watch" element={<Watch />}></Route>
         <Route path="/iPhoneUnlock" element={<IPhoneUnlock />}></Route>
