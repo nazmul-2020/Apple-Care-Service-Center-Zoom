@@ -31,6 +31,18 @@ const Information = () => {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div className="col col-md-3 col-lg-2">
+                                    <div className="card">
+                                        <div className="card-body text-center">
+                                            <Link to='/iPad' className='text-decoration-none'>
+                                                <img width='70' height='70' color className='d-block mx-auto' src={tablet} alt="" />
+                                                <small className='fw-bold text-dark'>iPad</small>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
                                         <div className="card-body text-center">
@@ -41,6 +53,7 @@ const Information = () => {
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
                                         <div className="card-body text-center">
@@ -51,6 +64,7 @@ const Information = () => {
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
                                         <div className="card-body text-center">
@@ -61,17 +75,9 @@ const Information = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col col-md-3 col-lg-2">
-                                    <div className="card">
 
-                                        <div className="card-body text-center">
-                                            <Link to='/iPad' className='text-decoration-none'>
-                                                <img width='70' height='70' color className='d-block mx-auto' src={tablet} alt="" />
-                                                <small className='fw-bold text-dark'>iPad</small>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
+
+
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
                                         <div className="card-body text-center">

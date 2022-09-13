@@ -19,7 +19,7 @@ import Apple_iPhone_13Blue from '../../../../../assets/Images/Apple_iPhone_13Blu
 const IPhoneId = () => {
     return (
         <div className='my-5'>
-            <div className='iphoneId'>
+            <div className='iphoneDetails'>
                 <div className='overlay h-100'>
                     <div className='container pt-5 '>
                         <h4 className='text-center text-info'>iPhone 13 Pro Max Repair & Service Lists</h4>
@@ -56,7 +56,7 @@ const IPhoneId = () => {
                     <div className='row g-3'>
                         <div className='col col-md- col-lg-2 '>
                             <div className='bg-i text-center'>
-                                <Link className='text-decoration-none text-dark' to='/iPhoneId' >
+                                <Link className='text-decoration-none text-dark' to='/iphoneDetails' >
                                     <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro Max</p>
                                 </Link>
                                 <Link className='text-decoration-none text-dark' to='/'>
