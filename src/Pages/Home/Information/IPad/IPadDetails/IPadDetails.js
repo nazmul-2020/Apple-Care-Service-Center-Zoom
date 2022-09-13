@@ -1,6 +1,7 @@
 import React from 'react';
 import { BiArrowBack } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
+import './IPadDetails.css'
 import iPad from '../../../../../assets/Images/iPhoneRepair/one/iPad8,4.png'
 import Battery_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Battery_Replacement.png'
 import Display_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Display_Replacement.png'
@@ -45,30 +46,30 @@ const IPadDetails = () => {
                 <h6 className='w-75 ms-3 mb- mt-4 '><Link className='text-info' to='/iPad'><BiArrowBack className='' /><span className='ms-2' >Back</span></Link></h6>
                 <div className='row g-3'>
                     <div className='col col-md- col-lg-2 '>
-                        <div className='bg-i text-center'>
+                        <div className='text-centr'>
                             <Link className='text-decoration-none text-dark' to='/iphoneDetails' >
-                                <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro Max</p>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 11-Inch (3rd Gen 2021)</p>
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
-                                <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro</p>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 4 12.9-Inch (4th Gen 2020)</p>
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
-                                <p className='p-2 fw-bold iphoneP'>iPhone 13</p>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 11-Inch (1st Gen 2018) (2nd Gen 2020)</p>
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
-                                <p className='p-2 fw-bold iphoneP'>iPhone 13 Mini</p>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 3 12.9-Inch (3rd Gen 2018)</p>
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
-                                <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro Max</p>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 2 12.9-Inch (2nd Gen 2017)</p>
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
-                                <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro</p>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 12.9-inch (1st Gen 2015)</p>
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
-                                <p className='p-2 fw-bold iphoneP'>iPhone 12</p>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 10.5-inch (1st Gen 2017)</p>
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
-                                <p className='p-2 fw-bold iphoneP'>iPhone 12 Mini</p>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 9.7 (1st Gen 2016)</p>
                             </Link>
                         </div>
                     </div>

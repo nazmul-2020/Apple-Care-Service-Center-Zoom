@@ -8,7 +8,15 @@
 
 .iphoneP{
     margin: 0;
+    /* background-color: rgba(0, 0, 0, 0); */
+    margin-bottom: 4px;
+    /* border-radius: 3px; */
+    transition: all ease 0.5s;
+    border-left: 3px solid  rgba(0, 0, 0, 0.11);
+
+}
+
+.iphoneP:hover{
+    background-color: blueviolet;
     background-color: rgba(0, 0, 0, 0.11);
-    margin-bottom: 2px;
-    border-radius: 3px;
 }
