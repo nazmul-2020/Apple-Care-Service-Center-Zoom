@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import iphone_13 from '../../../../../assets/Images/iPhoneRepair/iphone-13-pro-max.png'
 import { BiArrowBack } from "react-icons/bi";
 import './IPhoneId.css'
 import Battery_Replacement from '../../../../../assets/Images/iPhoneRepair/one/Battery_Replacement.png'
@@ -24,7 +23,6 @@ const IPhoneId = () => {
                     <div className='container pt-5 '>
                         <h4 className='text-center text-info'>iPhone 13 Pro Max Repair & Service Lists</h4>
                         <div className='row g-4 mt-2'>
-
                             <div className='col-12 col-md-6 col-lg-6'>
                                 <div className='text-white fw-bold'>
                                     <p className='border-start border-warning mb-2 border-2 bo ps-2'>iPhone 13 Pro Max Released 2021, September 24</p>
