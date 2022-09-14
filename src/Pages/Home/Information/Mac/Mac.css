@@ -1,0 +1,19 @@
+.macBanner{
+    background-image: url(../../../../assets/Images/MacRepair/mac.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:400px;
+    background-attachment: fixed;
+    /* height:100vh; */
+}
+
+.mac-Ca{
+    width: 150px;
+    height: 150px;
+    border: 3px solid gray;
+    text-align: center;
+    border-bottom: 6px solid rgba(128, 128, 128, 0.374);
+    border-right: 6px solid rgba(128, 128, 128, 0.386);
+    border-top-right-radius: 10px;    
+}

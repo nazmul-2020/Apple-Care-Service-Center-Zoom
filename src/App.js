@@ -11,7 +11,7 @@ import IPhoneBattery from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneB
 import IPhoneBatteryId from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneBatteryId";
 import IphoneDetails from "./Pages/Home/Information/IPhone/IPhoneId/IPhoneId";
 import IPhoneUnlock from "./Pages/Home/Information/IPhoneUnlock";
-import Mac from "./Pages/Home/Information/Mac";
+import Mac from "./Pages/Home/Information/Mac/Mac";
 import MacBook from "./Pages/Home/Information/MacBook";
 import Watch from "./Pages/Home/Information/Watch";
 import One from "./Pages/One/One";

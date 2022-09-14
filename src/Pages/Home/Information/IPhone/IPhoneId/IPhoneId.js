@@ -53,7 +53,7 @@ const IPhoneId = () => {
                     <h6 className='w-75 ms-3 mb- mt-4 '><Link className='text-info' to='/iPhone'><BiArrowBack className='' /><span className='ms-2' >Back</span></Link></h6>
                     <div className='row g-3'>
                         <div className='col col-md- col-lg-2 '>
-                            <div className='bg-i text-center'>
+                            <div className=''>
                                 <Link className='text-decoration-none text-dark' to='/iphoneDetails' >
                                     <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro Max</p>
                                 </Link>
