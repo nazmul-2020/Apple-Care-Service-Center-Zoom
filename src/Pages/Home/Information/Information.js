@@ -10,7 +10,7 @@ import './Information.css'
 
 const Information = () => {
     return (
-        <div className='my-5 overlay'>
+        <div className='my-5'>
             <div className=' informationBanner'>
                 <div className='py-5 overlay'>
                     <div className='container'>

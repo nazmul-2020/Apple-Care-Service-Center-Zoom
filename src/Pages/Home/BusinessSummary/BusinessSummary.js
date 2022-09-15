@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
-import { BsBag } from "react-icons/bs";
+import { GrServices } from "react-icons/gr";
+import { TbFileCertificate } from "react-icons/tb";
+import { Icon } from '@iconify/react';
+import { FaHandsHelping } from 'react-icons/fa';
+import'./BusinessSummary.css'
 
 const BusinessSummary = () => {
     const { CountOn, setCountOn } = useState(false);
@@ -10,21 +14,23 @@ const BusinessSummary = () => {
             <div className='container'>
                 <h1 className=' text-center'>Business <span className='text-info'>Summary</span></h1>
 
-                <div className='row g-3 mt-4'>
+                <div className='row g-3 mt-4 pb-3'>
                     <div className='col col-md-6 col-lg-3 ' >
                         <div className=' text-center'>
                             <ScrollTrigger>
-                                <BsBag className='fs-1 mb-4 ' />
-                                <h1><CountUp start={0} end={100} duration={5} ></CountUp>+</h1>
+                                <TbFileCertificate className='mb-2 busi-icon' />
+                                <h3 className='mb-0'><CountUp start={0} end={18} duration={5} ></CountUp>+</h3>
                             </ScrollTrigger>
-                            <small>SUCCESSFULLY REPAIRED DEVICES</small>
+                            <small>Year of Experience</small>
                         </div>
                     </div>
+
                     <div className='col col-md-6 col-lg-3 ' >
                         <div className=' text-center'>
                             <ScrollTrigger>
-                                <BsBag className='fs-1 mb-4 ' />
-                                <h1><CountUp start={0} end={100} duration={5} delay={0}></CountUp>+</h1>
+
+                                <Icon className='mb-2 busi-icon ' icon="carbon:task-complete" />
+                                <h3 className='mb-0'><CountUp start={0} end={200} duration={5} delay={0}></CountUp>+</h3>
                             </ScrollTrigger>
                             <small>PROFESSIONAL REPAIR SPECIALISTS</small>
                         </div>
@@ -32,19 +38,19 @@ const BusinessSummary = () => {
                     <div className='col col-md-6 col-lg-3 ' >
                         <div className=' text-center'>
                             <ScrollTrigger>
-                                <BsBag className='fs-1 mb-4 ' />
-                                <h1><CountUp start={0} end={100} duration={5} delay={0}></CountUp>+</h1>
+                                <FaHandsHelping className='mb-2 busi-icon' />
+                                <h3 className='mb-0'><CountUp start={0} end={22} duration={5} delay={0}></CountUp>+</h3>
                             </ScrollTrigger>
-                            <small>YEARS OF SUCCESSFUL WORK</small>
+                            <small>EXPORTING OF CLIENTS</small>
                         </div>
                     </div>
                     <div className='col col-md-6 col-lg-3'>
                         <div className=' text-center'>
                             <ScrollTrigger>
-                                <BsBag className='fs-1 mb-4 ' />
-                                <h1><CountUp start={0} end={100} duration={5} delay={0}></CountUp>+</h1>
+                                <GrServices className='mb-2 busi-icon' />
+                                <h3 className='mb-0'><CountUp start={0} end={240} duration={5} delay={0}></CountUp>+</h3>
                             </ScrollTrigger>
-                            <small>ADVANCED SERVICING LABS</small>
+                            <small>ADVANCE LAB SERVICE</small>
                         </div>
                     </div>
                 </div>

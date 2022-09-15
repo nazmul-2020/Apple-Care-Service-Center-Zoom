@@ -11,9 +11,11 @@ import IPhoneBattery from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneB
 import IPhoneBatteryId from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneBatteryId";
 import IphoneDetails from "./Pages/Home/Information/IPhone/IPhoneId/IPhoneId";
 import IPhoneUnlock from "./Pages/Home/Information/IPhoneUnlock";
+import IMacBookPro from "./Pages/Home/Information/Mac/IMacBookPro/IMacBookPro";
 import Mac from "./Pages/Home/Information/Mac/Mac";
 import MacBook from "./Pages/Home/Information/MacBook";
 import Watch from "./Pages/Home/Information/Watch";
+import NotFound from "./Pages/NotFound/NotFound";
 import One from "./Pages/One/One";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
@@ -31,7 +33,9 @@ function App() {
         <Route path="/iPhoneBattery" element={<IPhoneBattery/>}></Route>
         <Route path="/iPhoneBatterId" element={<IPhoneBatteryId/>}></Route>
         <Route path="/iPhoneAllBatter" element={<IPhoneAllBatter/>}></Route>
-        <Route path="/iMac" element={<Mac />}></Route>
+        <Route path="/iMac" element={<Mac />}>
+          <Route path='/iMacBookPro' element={<IMacBookPro/>}></Route>
+        </Route>
         <Route path="/watch" element={<Watch />}></Route>
         <Route path="/iPhoneUnlock" element={<IPhoneUnlock />}></Route>
         <Route path="/iPad" element={<IPad />}></Route>
@@ -41,6 +45,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/one" element={<One />}></Route>
+        <Route path="*" element={<NotFound/>}></Route>
       </Routes>
       <Footer />
     </div>

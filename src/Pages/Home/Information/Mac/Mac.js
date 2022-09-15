@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import './Mac.css'
 
 const Mac = () => {
@@ -14,13 +14,15 @@ const Mac = () => {
                 </div>
             </div>
             <div className='container '>
+            <Outlet/>
                 <div className='text-center mt-4'>
                     <h4>MAC REPAIR SERVICES</h4>
                     <p>Choose your appropriate Mac devices</p>
                 </div>
+                
                 <div className='row g-3 mx-auto'>
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/iMac/iMacBookPro'>
                             <div class="mac-Ca d-flex align-items-center justify-content-center ">
                                 <h5 class="">Macbook Pro</h5>
                             </div>
@@ -28,7 +30,7 @@ const Mac = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/iMac/iMacBookPro'>
                             <div class="mac-Ca d-flex align-items-center justify-content-center ">
                                 <h5 class="">Macbook Air</h5>
                             </div>
@@ -36,7 +38,7 @@ const Mac = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/iMackBookPro'>
                             <div class="mac-Ca d-flex align-items-center justify-content-center ">
                                 <h5 class="">Macbook </h5>
                             </div>
@@ -66,6 +68,7 @@ const Mac = () => {
                             </div>
                         </Link>
                     </div>
+                    
                 </div>
             </div>
         </div>

@@ -1,0 +1,9 @@
+.notFoundContainer{
+    height: 100vh;
+    text-align: center;
+}
+
+.aa{
+    clip-path: polygon(0 0, 75% 0, 100% 99%, 25% 100%);
+    /* padding: 50px; */
+}

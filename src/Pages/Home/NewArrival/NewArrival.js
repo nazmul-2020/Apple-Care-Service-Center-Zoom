@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
-import "swiper/css/pagination";
+// import "swiper/css/pagination";
 import './NewArrival.css'
 import { FreeMode, Navigation, Pagination } from 'swiper';
 import iPhon_X from '../../../assets/Images/iPhone-X.png'
@@ -27,18 +27,18 @@ const NewArrival = () => {
                 </div>
                 <div className=''>
                     <Swiper
-                        slidesPerView={3}
+                        slidesPerView={4}
                         spaceBetween={30}
                         freeMode={true}
                         pagination={{
                             clickable: true,
                         }}
                         modules={[FreeMode, Pagination, Navigation]}
-                        className="mySwiper mt-4"
+                        className="mySwiper my-4"
                     >
                         <SwiperSlide>
                             <div>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '18m' }}>
                                     <Card.Img variant="top" className='w-100' src={iPhon_X} />
                                     <Card.Body>
                                         <Card.Title>iPhone Xr/11 Curved</Card.Title>
@@ -52,9 +52,10 @@ const NewArrival = () => {
                                 </Card>
                             </div>
                         </SwiperSlide>
+                        
                         <SwiperSlide>
                             <div>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '18m' }}>
                                     <Card.Img variant="top" className='w-100' src={iPhon_X} />
                                     <Card.Body>
                                         <Card.Title>iPhone Xr/11 Curved</Card.Title>
@@ -66,7 +67,7 @@ const NewArrival = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '18m' }}>
                                     <Card.Img variant="top" className='w-100' src={iPhon_X} />
                                     <Card.Body>
                                         <Card.Title>iPhone Xr/11 Curved</Card.Title>
@@ -78,7 +79,7 @@ const NewArrival = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '1m' }}>
                                     <Card.Img variant="top" className='w-100' src={iPhon_X} />
                                     <Card.Body>
                                         <Card.Title>iPhone Xr/11 Curved</Card.Title>
@@ -90,7 +91,7 @@ const NewArrival = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '18m' }}>
                                     <Card.Img variant="top" className='w-100' src={iPhon_X} />
                                     <Card.Body>
                                         <Card.Title>iPhone Xr/11 Curved</Card.Title>
@@ -102,7 +103,7 @@ const NewArrival = () => {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '18m' }}>
                                     <Card.Img variant="top" className='w-100' src={iPhon_X} />
                                     <Card.Body>
                                         <Card.Title>iPhone Xr/11 Curved</Card.Title>

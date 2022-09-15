@@ -4,7 +4,7 @@ import shop from '../../../assets/Images/shop.png'
 const Location = () => {
     return (
         <div className='mt-5'>
-            <div className='cont'>
+            <div className='container'>
                 <h3 className='text-center mb-4'>Our Office Location On Google Map</h3>
                 <div className="row g-4">
                     <div className='col col-md-6 col-lg-6 '>

@@ -19,13 +19,13 @@ const Home = () => {
     return (
         <div>
             <Banner />
-            <About />
             <BusinessSummary />
             <Information />
             <MobileRepair />
-            <ProfessionalRepair />
+            <About />
             <NewArrival/>
             <Discounted/>
+            <ProfessionalRepair />
             <ScheduleRepair />
             <Videos/> 
             <IcareApple/>
