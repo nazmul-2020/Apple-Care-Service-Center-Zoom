@@ -1,0 +1,14 @@
+.hr{
+    width: 80px;
+    border: 0;
+    height: 2px;
+    background: #333;
+}
+
+.bg-img{
+    background-image: url(../../../assets/Images/Rectangle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
