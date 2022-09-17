@@ -45,6 +45,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/one" element={<One />}></Route>
+        <Route path='/iMacBookPro' element={<IMacBookPro/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
       </Routes>
       <Footer />
