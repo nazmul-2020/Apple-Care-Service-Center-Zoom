@@ -11,6 +11,8 @@ import IPhoneBattery from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneB
 import IPhoneBatteryId from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneBatteryId";
 import IphoneDetails from "./Pages/Home/Information/IPhone/IPhoneId/IPhoneId";
 import IPhoneUnlock from "./Pages/Home/Information/IPhoneUnlock";
+import IMac22 from "./Pages/Home/Information/Mac/IMac22";
+// import IMac22 from "./Pages/Home/Information/Mac/IMacBookPro/iMac22";
 import IMacBookPro from "./Pages/Home/Information/Mac/IMacBookPro/IMacBookPro";
 import Mac from "./Pages/Home/Information/Mac/Mac";
 import MacBook from "./Pages/Home/Information/MacBook";
@@ -29,24 +31,25 @@ function App() {
         {/*---------------- Category Route start------------------ */}
         <Route path="/macBook" element={<MacBook />}></Route>
         <Route path="/iPhone" element={<IPhone />}></Route>
-        <Route path="/iphoneDetails" element={<IphoneDetails/>}></Route>
-        <Route path="/iPhoneBattery" element={<IPhoneBattery/>}></Route>
-        <Route path="/iPhoneBatterId" element={<IPhoneBatteryId/>}></Route>
-        <Route path="/iPhoneAllBatter" element={<IPhoneAllBatter/>}></Route>
+        <Route path="/iphoneDetails" element={<IphoneDetails />}></Route>
+        <Route path="/iPhoneBattery" element={<IPhoneBattery />}></Route>
+        <Route path="/iPhoneBatterId" element={<IPhoneBatteryId />}></Route>
+        <Route path="/iPhoneAllBatter" element={<IPhoneAllBatter />}></Route>
         <Route path="/iMac" element={<Mac />}>
-          <Route path='/iMacBookPro' element={<IMacBookPro/>}></Route>
+          {/* <Route path='/iMacBookP' element={<IMacBookPro/>}></Route> */}
+          <Route path='/iMac22' element={<IMac22/>}></Route>
+
         </Route>
         <Route path="/watch" element={<Watch />}></Route>
         <Route path="/iPhoneUnlock" element={<IPhoneUnlock />}></Route>
         <Route path="/iPad" element={<IPad />}></Route>
-        <Route path="/iPadDetails" element={<IPadDetails/>}></Route>
+        <Route path="/iPadDetails" element={<IPadDetails />}></Route>
         {/*---------------- Category Route start------------------ */}
         <Route path="/aboutUs" element={<AboutUs />}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/one" element={<One />}></Route>
-        <Route path='/iMacBookPro' element={<IMacBookPro/>}></Route>
-        <Route path="*" element={<NotFound/>}></Route>
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
       <Footer />
     </div>

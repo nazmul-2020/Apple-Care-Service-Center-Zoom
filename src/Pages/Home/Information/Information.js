@@ -23,7 +23,7 @@ const Information = () => {
                             <div className="row g-3 mt-3">
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
-                                        <div className="card-body text-center">
+                                        <div className="card-body text-center aa ">
                                             <Link to='/iPhone' className='text-decoration-none'>
                                                 <img width='70' height='70' className='d-block mx-auto' src={mobilePh} alt="" />
                                                 <small className='fw-bold text-dark'>iPhone</small>
@@ -34,7 +34,7 @@ const Information = () => {
 
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
-                                        <div className="card-body text-center">
+                                        <div className="card-body text-center aa">
                                             <Link to='/iPad' className='text-decoration-none'>
                                                 <img width='70' height='70' color className='d-block mx-auto' src={tablet} alt="" />
                                                 <small className='fw-bold text-dark'>iPad</small>
@@ -45,7 +45,7 @@ const Information = () => {
 
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
-                                        <div className="card-body text-center">
+                                        <div className="card-body text-center aa">
                                             <Link className='text-decoration-none' to='/macBook'>
                                                 <img width='70' height='70' className='d-block mx-auto' src={laptop} alt="" />
                                                 <small className='fw-bold text-dark'>iMacBook</small>
@@ -56,7 +56,7 @@ const Information = () => {
 
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
-                                        <div className="card-body text-center">
+                                        <div className="card-body text-center aa">
                                             <Link to='/iMac' className='text-decoration-none'>
                                                 <img width='70' height='70' className='d-block mx-auto' src={monitor} alt="" />
                                                 <small className='fw-bold text-dark'>iMac</small>
@@ -67,7 +67,7 @@ const Information = () => {
 
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
-                                        <div className="card-body text-center">
+                                        <div className="card-body text-center aa">
                                             <Link to='/watch' className='text-decoration-none'>
                                                 <img width='70' height='70' className='d-block mx-auto' src={watch} alt="" />
                                                 <small className='fw-bold text-dark'>Watch</small>
@@ -76,11 +76,9 @@ const Information = () => {
                                     </div>
                                 </div>
 
-
-
                                 <div className="col col-md-3 col-lg-2">
-                                    <div className="card">
-                                        <div className="card-body text-center">
+                                    <div className="card bb">
+                                        <div className="card-body text-center aa">
                                             <Link to='/iPhoneUnlock' className='text-decoration-none'>
                                                 <img width='70' height='70' className='d-block mx-auto' src={laptop} alt="" />
                                                 <small className='fw-bold text-dark'>iPhone Unlock</small>

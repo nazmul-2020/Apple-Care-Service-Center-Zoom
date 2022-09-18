@@ -20,7 +20,7 @@ const IPhoneId = () => {
         <div className='my-5'>
             <div className='iphoneDetails'>
                 <div className='overlay h-100'>
-                    <div className='container pt-5 '>
+                    <div className='container pt-5 w-50 mx-auto'>
                         <h4 className='text-center text-info'>iPhone 13 Pro Max Repair & Service Lists</h4>
                         <div className='row g-4 mt-2'>
                             <div className='col-12 col-md-6 col-lg-6'>
@@ -50,10 +50,12 @@ const IPhoneId = () => {
                 </div> */}
 
                 <div className='mt-3'>
-                    <h6 className='w-75 ms-3 mb- mt-4 '><Link className='text-info' to='/iPhone'><BiArrowBack className='' /><span className='ms-2' >Back</span></Link></h6>
-                    <div className='row g-3'>
-                        <div className='col col-md- col-lg-2 '>
-                            <div className=''>
+                    <h6 className='w-75 mx-auto ps-5 my-4 '><Link className='text-info' to='/iPhone'><BiArrowBack className='' /><span className='ms-2' >Back</span></Link></h6>
+                    <div className='row g-3 link-container'>
+                        <div className='col col-md- col-lg-2'>
+                            
+                            <div className='allLink'>
+                            <p className='p-2 fw-bold text-info qq'>iPhone Category</p>
                                 <Link className='text-decoration-none text-dark' to='/iphoneDetails' >
                                     <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro Max</p>
                                 </Link>
@@ -65,6 +67,42 @@ const IPhoneId = () => {
                                 </Link>
                                 <Link className='text-decoration-none text-dark' to='/'>
                                     <p className='p-2 fw-bold iphoneP'>iPhone 13 Mini</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro Max</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12 Mini</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro Max</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12 Mini</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro Max</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12</p>
+                                </Link>
+                                <Link className='text-decoration-none text-dark' to='/'>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 12 Mini</p>
                                 </Link>
                                 <Link className='text-decoration-none text-dark' to='/'>
                                     <p className='p-2 fw-bold iphoneP'>iPhone 12 Pro Max</p>

@@ -22,7 +22,7 @@ const AboutUs = () => {
                     </div>
                     <div className="col col-md-6 col-lg-6">
                         <div className=''>
-                            <iframe className='mx-auto d-block' width="75%" height="250" src="https://www.youtube.com/embed/OTTAGSr0BMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe className='mx-auto d-block' width="75%" height="250" src="https://www.youtube.com/embed/OTTAGSr0BMI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>

@@ -14,25 +14,29 @@ const Mac = () => {
                 </div>
             </div>
             <div className='container '>
-            <Outlet/>
+
                 <div className='text-center mt-4'>
                     <h4>MAC REPAIR SERVICES</h4>
                     <p>Choose your appropriate Mac devices</p>
                 </div>
-                
+
+                <div>
+
+                </div>
+                <Outlet />
                 <div className='row g-3 mx-auto'>
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/iMac/iMacBookPro'>
+                        <Link className='text-decoration-none text-dark' to='/iMac22'>
                             <div class="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 class="">Macbook Pro</h5>
+                                <h5 class="">MacBook Pro</h5>
                             </div>
                         </Link>
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/iMac/iMacBookPro'>
+                        <Link className='text-decoration-none text-dark' to='/iMac/iMac22'>
                             <div class="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 class="">Macbook Air</h5>
+                                <h5 class="">MacBook Air</h5>
                             </div>
                         </Link>
                     </div>
@@ -40,7 +44,7 @@ const Mac = () => {
                     <div className='col col-md-3 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iMackBookPro'>
                             <div class="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 class="">Macbook </h5>
+                                <h5 class="">MacBook </h5>
                             </div>
                         </Link>
                     </div>
@@ -64,11 +68,11 @@ const Mac = () => {
                     <div className='col col-md-3 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/'>
                             <div class="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 class="">Macbook Pro</h5>
+                                <h5 class="">MacBook Pro</h5>
                             </div>
                         </Link>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

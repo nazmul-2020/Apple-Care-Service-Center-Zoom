@@ -17,9 +17,9 @@ const About = () => {
                     </div>
                 </div>
                 <div className='col-12 col-md-6 col-lg-6'
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1500">
+                    data-aos="fade-left"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="1000">
                     <img className='w-100' src={TSJR} alt="" />
                 </div>
             </div>

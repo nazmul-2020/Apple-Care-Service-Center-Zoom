@@ -1,22 +1,44 @@
-.iphoneDetails{
+.iphoneDetails {
     background-image: url(../../../../../assets/Images/iPhone-Repair-etobicoke\ 1.png);
     background-size: cover;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     height: 450px;
 }
 
-.iphoneP{
+.iphoneP {
     margin: 0;
     /* background-color: rgba(0, 0, 0, 0); */
     margin-bottom: 4px;
     /* border-radius: 3px; */
     transition: all ease 0.5s;
-    border-left: 3px solid  rgba(0, 0, 0, 0.11);
+    border-left: 3px solid rgba(0, 0, 0, 0.11);
 
 }
 
-.iphoneP:hover{
+.iphoneP:hover {
     background-color: blueviolet;
     background-color: rgba(0, 0, 0, 0.11);
+}
+
+.link-container {
+    position: relative;
+}
+
+.allLink {
+    background-color: white;
+    position: absolute;
+    top: -250px;
+    left: 0;
+    overflow: scroll;
+    overflow: auto;
+    height: 600px;
+}
+
+.qq {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    margin: 0;
+    
 }
