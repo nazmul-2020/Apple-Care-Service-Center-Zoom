@@ -11,7 +11,7 @@ const IPhoneBattery = () => {
                 <div className='overlay h-100 d-flex justify-content-center align-items-center'>
                     <div className='w-50 mx-auto text-center'>
                         <h4 className='text-white'>Battery Replacement</h4>
-                        <span><Link to='/iphoneDetails' className='text-white text-decoration-none '>iPhone 13 Pro Max</Link></span>
+                        <span><Link to='/iPhoneId' className='text-white text-decoration-none '>iPhone 13 Pro Max</Link></span>
                     </div>
                 </div>
             </div>

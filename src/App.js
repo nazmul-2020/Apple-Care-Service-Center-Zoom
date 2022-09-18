@@ -9,7 +9,7 @@ import IPhone from "./Pages/Home/Information/IPhone/IPhone";
 import IPhoneAllBatter from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneAllBatter";
 import IPhoneBattery from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneBattery.js";
 import IPhoneBatteryId from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhoneBatteryId";
-import IphoneDetails from "./Pages/Home/Information/IPhone/IPhoneId/IPhoneId";
+import IPhoneId from "./Pages/Home/Information/IPhone/IPhoneId/IPhoneId";
 import IPhoneUnlock from "./Pages/Home/Information/IPhoneUnlock";
 import IMac22 from "./Pages/Home/Information/Mac/IMac22";
 // import IMac22 from "./Pages/Home/Information/Mac/IMacBookPro/iMac22";
@@ -31,7 +31,7 @@ function App() {
         {/*---------------- Category Route start------------------ */}
         <Route path="/macBook" element={<MacBook />}></Route>
         <Route path="/iPhone" element={<IPhone />}></Route>
-        <Route path="/iphoneDetails" element={<IphoneDetails />}></Route>
+        <Route path="/iphoneId" element={<IPhoneId />}></Route>
         <Route path="/iPhoneBattery" element={<IPhoneBattery />}></Route>
         <Route path="/iPhoneBatterId" element={<IPhoneBatteryId />}></Route>
         <Route path="/iPhoneAllBatter" element={<IPhoneAllBatter />}></Route>

@@ -18,7 +18,7 @@ import Apple_iPhone_13Blue from '../../../../../assets/Images/Apple_iPhone_13Blu
 const IPadDetails = () => {
     return (
         <div className='mt-5'>
-            <div className='iphoneDetails'>
+            <div className='iPhoneId'>
                 <div className='overlay h-100'>
                     <div className="container pt-5">
                         <h4 className='text-center w-75 text-info mx-auto'>iPad Pro 10.5-inch (1st Gen 2017) Repair & Service Lists</h4>
@@ -47,7 +47,7 @@ const IPadDetails = () => {
                 <div className='row g-3'>
                     <div className='col col-md- col-lg-2 '>
                         <div className='text-centr'>
-                            <Link className='text-decoration-none text-dark' to='/iphoneDetails' >
+                            <Link className='text-decoration-none text-dark' to='/iPhoneId' >
                                 <p className='p-2 fw-bold iphoneP'>iPad Pro 11-Inch (3rd Gen 2021)</p>
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
