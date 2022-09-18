@@ -23,7 +23,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 11-Inch (2nd Gen 2020)</h5>
                                 </div>
@@ -34,7 +34,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2 ' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 3 12.9-Inch (3rd Gen 2018)</h5>
                                 </div>
@@ -45,7 +45,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 11-Inch (1st Gen 2018)</h5>
                                 </div>
@@ -56,7 +56,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2 ' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 10.5-inch (1st Gen 2017)</h5>
                                 </div>
@@ -67,7 +67,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2 ' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 4 12.9-Inch (4th Gen 2020)</h5>
                                 </div>
@@ -78,7 +78,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 4 12.9-Inch (4th Gen 2020)</h5>
                                 </div>
@@ -89,7 +89,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 4 12.9-Inch (4th Gen 2020)</h5>
                                 </div>
@@ -100,7 +100,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 4 12.9-Inch (4th Gen 2020)</h5>
                                 </div>
@@ -111,7 +111,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 4 12.9-Inch (4th Gen 2020)</h5>
                                 </div>
@@ -122,7 +122,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 4 12.9-Inch (4th Gen 2020)</h5>
                                 </div>
@@ -133,7 +133,7 @@ const IPad = () => {
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>
                             <div class="box-card iPad p-3 border border-info">
-                                <img className='d-block mx-auto box2 aa' width='90' src={iPad} alt="" />
+                                <img className='d-block mx-auto box2' width='90' src={iPad} alt="" />
                                 <div>
                                     <h5 className='mt-3'>iPad Pro 4 12.9-Inch (4th Gen 2020)</h5>
                                 </div>

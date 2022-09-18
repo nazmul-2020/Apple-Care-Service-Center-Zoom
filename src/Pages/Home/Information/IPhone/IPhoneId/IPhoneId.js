@@ -20,10 +20,10 @@ const IPhoneId = () => {
         <div className='my-5'>
             <div className='iPhoneId'>
                 <div className='overlay h-100'>
-                    <div className='container pt-5 w-50 mx-auto'>
+                    <div className=' pt-5 w-75 ms-auto'>
                         <h4 className='text-center text-info'>iPhone 13 Pro Max Repair & Service Lists</h4>
                         <div className='row g-4 mt-2'>
-                            <div className='col-12 col-md-6 col-lg-6'>
+                            <div className='col-12 col-md-6 col-lg-4'>
                                 <div className='text-white fw-bold'>
                                     <p className='border-start border-warning mb-2 border-2 bo ps-2'>iPhone 13 Pro Max Released 2021, September 24</p>
                                     <p className='border-start border-warning mb-2 border-2 bo ps-2'>Li-Ion 4352 mAh, non-removable (16.75 Wh) Fast charging 27W, 50% in 30 min (advertised) USB</p>
@@ -33,9 +33,19 @@ const IPhoneId = () => {
                                 </div>
                             </div>
 
-                            <div className='col-12 col-md-6 col-lg-6'>
+                            <div className='col-12 col-md-6 col-lg-4'>
                                 <div className=''>
-                                    <img className='d-block mx-auto' height='300' src={Apple_iPhone_13Blue} alt="" />
+                                    <img className='d-block mx-auto' height='250' src={Apple_iPhone_13Blue} alt="" />
+                                </div>
+                            </div>
+
+                            <div className='col-12 col-md-6 col-lg-4 w-25'>
+                                <div className='text-center text-white p-2 fw-bold '>
+                                    <p className='border-start border-warning border-2 iphoneP'>1284x2778 pixels</p>
+                                    <p className=' border-start border-warning border-2 iphoneP'>6.7"</p>
+                                    <p className='border-start border-warning border-2 iphoneP'>2160p</p>
+                                    <p className='border-start border-warning border-2 iphoneP'>6GB RAM</p>
+                                    <p className='border-start border-warning border-2 iphoneP'>4352mAh</p>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +67,7 @@ const IPhoneId = () => {
                             <div className='allLink'>
                                 <p className='p-2 fw-bold text-info qq'>iPhone Category</p>
                                 <Link className='text-decoration-none text-dark' to='/' >
-                                    <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro Max</p>
+                                    <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro Max </p>
                                 </Link>
                                 <Link className='text-decoration-none text-dark' to='/iPhoneBatterId'>
                                     <p className='p-2 fw-bold iphoneP'>iPhone 13 Pro</p>

@@ -44,7 +44,7 @@ const IPhoneBatteryId = () => {
                     </div>
                 </div>
 
-                <div className='row'>
+                <div className='row mt-5'>
                     <div className="col col-md-6 col-lg-6 ">
 
                         <div className=''>
@@ -76,12 +76,31 @@ const IPhoneBatteryId = () => {
                     </div>
 
                     <div className="col col-md-6 col-lg-6 ">
-                        <div>
+                        {/* <div>
                             <p>The iPhones have always provided their users with optimal specifications that perform up to expectation. One of the key features of the latest iPhone 13 Pro Max is the battery. The iPhone 13 Pro Max’s battery sits perfectly with the phone and gives its users the perfect experience. The iPhone 12 Pro Max offers a non-removable Lithium-Polymer battery that provides 4352 mAh. It supports fast wired and wireless charging which provides a 55% charge in 30 minutes. Although the iPhone provides an excellent battery, it will drain in time with wear and tear as the user uses it. They may face some issues with the phone’s battery.</p>
+                        </div> */}
+                        <div className='h-100'>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dIeCbn6_LNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
-                </div>
 
+                </div>
+                <div>
+                    <div className='w-75 mt-5 mx-auto text-justify'>
+                        <p>The iPhones have always provided their users with optimal specifications that perform up to expectation. One of the key features of the latest iPhone 13 Pro Max is the battery. The iPhone 13 Pro Max’s battery sits perfectly with the phone and gives its users the perfect experience. The iPhone 12 Pro Max offers a non-removable Lithium-Polymer battery that provides 4352 mAh. It supports fast wired and wireless charging which provides a 55% charge in 30 minutes. Although the iPhone provides an excellent battery, it will drain in time with wear and tear as the user uses it. They may face some issues with the phone’s battery.</p>
+                        <h4>The possible battery issues of iPhone 13 Pro Max that a user may face are: </h4>
+                        <ol>
+                            <li>Charge Drain: Sometimes the battery of the iPhone 13 Pro Max drains faster than it should. Or sometimes the battery drains drastically in standby mode. This is a common issue reported by users after some period of prolonged usage.</li>
+                            <li>Sudden Shutdown of Phones: Sudden Shutdown of Phones when battery percentage reaches 20: Some users report that their phone dies suddenly when the battery reaches 20%. This might be because your battery is old and swollen and needs to be replaced.</li>
+                            <li>Battery Health Reduces Quickly: A common issue of Battery problems regarding iPhone 13 Pro Max is that the general Battery Health reduces too quickly. Our expert technicians can fix this issue with your phone efficiently.</li>
+                            <li>Increase in Battery Thickness: The iPhone 13 Pro Max battery gets swollen/ increases in thickness after using it for an extended period of time. When a battery gets swollen, it runs the risk of damaging the phone. It should be replaced immediately because it is also a sign that the battery has run its course.</li>
+                        </ol>
+                        <div>
+                            <p>If your iPhone 13 Pro Max faces any such issues with the battery, you need to get it looked at by professionals here at iCareApple bd. iCareApple bd specializes in iPhone-related issues. Here at iCareApple bd, we provide original battery replacements for your iPhone 13 Pro Max battery issues at a very reasonable price. We also offer quick service and provide a warranty on each of our services regarding your iPhone 13 Pro Max battery. We ensure our quality for the price you pay and guarantee that you will love our services. iCareApple BD has 4 service points ranging in Dhaka, Bangladesh.</p>
+                        </div>
+                        <p><Link to='/contact' className='fs-5 fw-bold text-dark'>Our Locations</Link></p>
+                    </div>
+                </div>
                 <div className='my-4'>
                     <h3 className='text-center'>Related products</h3>
                     <div className="row g-3">

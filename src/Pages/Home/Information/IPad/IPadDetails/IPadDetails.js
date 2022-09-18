@@ -20,10 +20,10 @@ const IPadDetails = () => {
         <div className='mt-5'>
             <div className='iPhoneId'>
                 <div className='overlay h-100'>
-                    <div className="container pt-5">
-                        <h4 className='text-center w-75 text-info mx-auto'>iPad Pro 10.5-inch (1st Gen 2017) Repair & Service Lists</h4>
-                        <div className='row mt-4 w-75 mx-auto '>
-                            <div className="col col-md-6 col-lg-6 b-dark">
+                    <div className="pt-5 w-75 ms-auto">
+                        <h4 className='text-center text-info '>iPad Pro 10.5-inch (1st Gen 2017) Repair & Service Lists</h4>
+                        <div className='row mt-4 mx-auto '>
+                            <div className="col col-md-6 col-lg-4">
                                 <div className='text-white fw-bold'>
                                     <p className='border-start border-warning mb-2 border-2 bo ps-2'>iPad Pro 10.5-inch (1st Gen 2017) released 2017, June</p>
                                     <p className='border-start border-warning mb-2 border-2 bo ps-2'>Li-Ion 8134 mAh, non-removable (30.8 Wh)</p>
@@ -32,9 +32,20 @@ const IPadDetails = () => {
                                     <p className='border-start border-warning mb-2 border-2 bo ps-2'>Apple A10X Fusion</p>
                                 </div>
                             </div>
-                            <div className="col col-md-6 col-lg-6">
+
+                            <div className="col col-md-6 col-lg-4">
                                 <div>
-                                    <img className='d-block mx-auto' src={iPad} alt="" />
+                                    <img className='d-block mx-auto' src={iPad} alt=""/>
+                                </div>
+                            </div>
+
+                            <div className='col-12 col-md-6 col-lg-4 w-25'>
+                                <div className='text-center text-white p-2 fw-bold '>
+                                    <p className='border-start border-warning border-2 iphoneP'>1284x2778 pixels</p>
+                                    <p className=' border-start border-warning border-2 iphoneP'>6.7"</p>
+                                    <p className='border-start border-warning border-2 iphoneP'>2160p</p>
+                                    <p className='border-start border-warning border-2 iphoneP'>6GB RAM</p>
+                                    <p className='border-start border-warning border-2 iphoneP'>4352mAh</p>
                                 </div>
                             </div>
                         </div>
@@ -43,10 +54,11 @@ const IPadDetails = () => {
             </div>
 
             <div className='container'>
-                <h6 className='w-75 ms-3 mb- mt-4 '><Link className='text-info' to='/iPad'><BiArrowBack className='' /><span className='ms-2' >Back</span></Link></h6>
-                <div className='row g-3'>
+                <h6 className='w-75 mx-auto ps-5 my-4 '><Link className='text-info' to='/iPad'><BiArrowBack className='' /><span className='ms-2' >Back</span></Link></h6>
+                <div className='row g-3 link-container'>
                     <div className='col col-md- col-lg-2 '>
-                        <div className='text-centr'>
+                        <div className='allLink'>
+                            <p className='p-2 fw-bold text-info qq'>iPad Category</p>
                             <Link className='text-decoration-none text-dark' to='/iPhoneId' >
                                 <p className='p-2 fw-bold iphoneP'>iPad Pro 11-Inch (3rd Gen 2021)</p>
                             </Link>
@@ -58,6 +70,18 @@ const IPadDetails = () => {
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
                                 <p className='p-2 fw-bold iphoneP'>iPad Pro 3 12.9-Inch (3rd Gen 2018)</p>
+                            </Link>
+                            <Link className='text-decoration-none text-dark' to='/'>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 2 12.9-Inch (2nd Gen 2017)</p>
+                            </Link>
+                            <Link className='text-decoration-none text-dark' to='/'>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 12.9-inch (1st Gen 2015)</p>
+                            </Link>
+                            <Link className='text-decoration-none text-dark' to='/'>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 10.5-inch (1st Gen 2017)</p>
+                            </Link>
+                            <Link className='text-decoration-none text-dark' to='/'>
+                                <p className='p-2 fw-bold iphoneP'>iPad Pro 9.7 (1st Gen 2016)</p>
                             </Link>
                             <Link className='text-decoration-none text-dark' to='/'>
                                 <p className='p-2 fw-bold iphoneP'>iPad Pro 2 12.9-Inch (2nd Gen 2017)</p>
