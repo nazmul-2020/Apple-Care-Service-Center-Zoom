@@ -41,11 +41,11 @@ const IPadDetails = () => {
 
                             <div className='col-12 col-md-6 col-lg-4 w-25'>
                                 <div className='text-center text-white p-2 fw-bold '>
-                                    <p className='border-start border-warning border-2 iphoneP'>1284x2778 pixels</p>
-                                    <p className=' border-start border-warning border-2 iphoneP'>6.7"</p>
-                                    <p className='border-start border-warning border-2 iphoneP'>2160p</p>
-                                    <p className='border-start border-warning border-2 iphoneP'>6GB RAM</p>
-                                    <p className='border-start border-warning border-2 iphoneP'>4352mAh</p>
+                                    <p className='border-start border-warning p-2 border-2 iphoneP'>1284x2778 pixels</p>
+                                    <p className=' border-start border-warning p-2 border-2 iphoneP'>6.7"</p>
+                                    <p className='border-start border-warning p-2 border-2 iphoneP'>2160p</p>
+                                    <p className='border-start border-warning p-2 border-2 iphoneP'>6GB RAM</p>
+                                    <p className='border-start border-warning p-2 border-2 iphoneP'>4352mAh</p>
                                 </div>
                             </div>
                         </div>

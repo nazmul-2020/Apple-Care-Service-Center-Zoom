@@ -18,7 +18,7 @@ import Videos from './Videos/Videos';
 const Home = () => {
     return (
         <div>
-            <Banner />
+            {/* <Banner /> */}
             <BusinessSummary />
             <Information />
             <MobileRepair />

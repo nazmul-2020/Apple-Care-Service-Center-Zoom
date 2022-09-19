@@ -38,6 +38,13 @@ const IPhone = () => {
 
                 <div className=''>
                     <div className='row g-3'>
+                    {/* <div className='col col-md-4 col-lg-2'>
+                            <div className='border border-info shadow-lg text-center' >
+                                <img className='d-block mx-auto my-3' width='' height='180' src={iPhone_X} alt="" />
+                                <p className='fw-bold'>iPhone X</p>
+                            </div>
+                        </div> */}
+
                         <div className='col col-md-4 col-lg-2'>
                             <Link to='/iPhoneId' className='text-decoration-none text-dark'>
                             <div className='border border-info shadow-lg text-center' >
