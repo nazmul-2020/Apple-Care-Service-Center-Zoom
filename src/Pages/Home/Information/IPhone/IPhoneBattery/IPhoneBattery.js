@@ -19,11 +19,11 @@ const IPhoneBattery = () => {
                 <h3 className='text-center mb-2'>iPhone 13 Pro Max Battery Replacement</h3>
                 <div className='my-3 w-50 mx-auto'>
                     <Link to='/iPhoneBatterId' className='text-decoration-none text-dark'>
-                        <div class="card shadow mx-auto" style={{ width: '15rem'}}>
-                            <img src={iphone13proMaxBattery} class="card-img-top" alt="..." height='180' width='' />
-                            <div class="card-body">
-                                <h5 class="card-title">iPhone 13 Pro Max Original Battery</h5>
-                                <p class="card-text">Assemble charge: 1000 TK</p>
+                        <div className="card shadow mx-auto" style={{ width: '15rem'}}>
+                            <img src={iphone13proMaxBattery} className="card-img-top" alt="..." height='180' width='' />
+                            <div className="card-body">
+                                <h5 className="card-title">iPhone 13 Pro Max Original Battery</h5>
+                                <p className="card-text">Assemble charge: 1000 TK</p>
                                 <h4 className='text-danger'>8000 TK</h4>
                             </div>
                         </div>

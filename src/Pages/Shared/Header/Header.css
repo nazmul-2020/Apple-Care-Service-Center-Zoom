@@ -5,13 +5,13 @@
 
 body {
 	font-size: 14px;
-	color: #444;
-	background: #fff;
+	/* color: #444; */
+	/* background: #fff; */
 	font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 700;
+	/* font-weight: 700; */
 	margin-top: 0;
 }
 

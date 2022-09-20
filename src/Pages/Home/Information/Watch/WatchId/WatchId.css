@@ -1,12 +1,9 @@
-.watch-container {
+.watch-id-content{
     background: #83838321;
-    /* background: #838383; */
 }
 
-.watch-card {
+.watch{
     transition: all .3s;
-    width: 150px;
-    height: 150px;
     text-align: center;
     border-left: 3px solid gray;
     border-top: 3px solid gray;
@@ -14,9 +11,10 @@
     border-right: 6px solid rgba(128, 128, 128, 0.386);
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    background-color: white;
 }
 
-.watch-card:hover {
+.watch:hover {
     /* box-shadow: rgba(11, 11, 11, 0.362) 0px 5px 15px; */
     border-right: 3px solid gray;
     border-bottom: 3px solid gray;

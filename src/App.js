@@ -17,6 +17,7 @@ import IMacBookPro from "./Pages/Home/Information/Mac/IMacBookPro/IMacBookPro";
 import Mac from "./Pages/Home/Information/Mac/Mac";
 import MacBook from "./Pages/Home/Information/MacBook";
 import Watch from "./Pages/Home/Information/Watch/Watch";
+import WatchId from "./Pages/Home/Information/Watch/WatchId/WatchId";
 import NotFound from "./Pages/NotFound/NotFound";
 import One from "./Pages/One/One";
 import Footer from "./Pages/Shared/Footer/Footer";
@@ -40,6 +41,8 @@ function App() {
           <Route path='/iMac22' element={<IMac22/>}></Route>
         </Route>
         <Route path="/watch" element={<Watch />}></Route>
+        <Route path="/watchId" element={<WatchId/>}></Route>
+        
         <Route path="/iPhoneUnlock" element={<IPhoneUnlock />}></Route>
         <Route path="/iPad" element={<IPad />}></Route>
         <Route path="/iPadDetails" element={<IPadDetails />}></Route>
