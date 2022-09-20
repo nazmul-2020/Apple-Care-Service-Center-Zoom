@@ -1,3 +1,132 @@
 .banner {
     background: #83838321;
 }
+
+
+
+
+.hero-area {
+	background: url('../../../assets/img/hero.jpg') no-repeat;
+	background-size: cover;
+	padding: 100px 0px;
+	min-height: 80vh;
+}
+.search-box-container ul.nav {
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.search-box-container .nav-item a {
+	font-size: 18px;
+	color: #607D8B;
+	font-weight: 600;
+	padding: 0px 20px;
+	display: block;
+	border-right: 1px solid #607D8B;
+	line-height: 1;
+}
+
+.search-box-container .nav-item a.active {
+	color: #222;
+}
+.search-box-container .nav-item:last-child a {
+	border-right: 0px solid;
+}
+.searchBox button.btn {
+	position: absolute;
+	right: 0;
+	line-height: 40px;
+	z-index: 99;
+	font-size: 20px;
+	width: 57px;
+	background: transparent;
+}
+.searchBox input.form-control {
+	border-radius: 50px !important;
+	background: #fff;
+	border-color: transparent;
+	font-size: 14px;
+	padding-left: 23px;
+	height: 55px;
+	padding-top: 16px;
+	box-shadow: 0px 0px 18px #37474F;
+}
+.searchBox input.form-control:focus {
+	box-shadow: 0px 0px 22px #37474F;
+	border: 1px solid transparent;
+}
+.searchBox button.btn .bi-search {
+	display: inline-block;
+	color: #000;
+}
+.searchBox button.btn:focus{
+	box-shadow: unset;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > label {
+	position: absolute;
+	top: 6px;
+	left: 24px;
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	font-weight: 600;
+	line-height: 1.5;
+	color: #111;
+	text-align: left;
+	font-size: 12px;
+	z-index: 5;
+}
+.search-result {
+	background: #fff;
+	padding: 30px 20px 20px 20px;
+	border-radius: 20px;
+	width: 95%;
+	margin: -5px auto 0 auto;
+	z-index: 10;
+	position: relative;
+	height: 372px;
+	overflow-y: auto;
+}
+.search-result ul.item-list li {
+	width: 25%;
+	float: left;
+	padding: 0 15px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.search-result ul.item-list {
+  display: block;
+  overflow: hidden;
+}
+.search-result ul.item-list li img{
+	height: 100px;
+	width: auto;
+	margin-bottom: 5px;
+}
+.search-result ul.item-list li p{
+	font-size: 13px;
+	font-weight: 600;
+}
+/*
+*****************************
+********	Responsive ********
+*****************************
+*/
+@media screen and (max-width: 991px) {
+	.search-result ul.item-list li {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 414px) {
+	.search-result ul.item-list li img {
+		height: 60px;
+	}
+	.search-result ul.item-list li p {
+		font-size: 12px;
+	}
+}

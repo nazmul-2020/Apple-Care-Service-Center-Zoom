@@ -3,7 +3,7 @@ import './ContactUs.css'
 
 const ContactUs = () => {
     return (
-        <div className='mt-5'>
+        <div className='mt-'>
             <div className='blogBanner'>
                 <div className='overlay h-100 d-flex align-items-center justify-content-center'>
                     <h3 className='text-white'>Contact Us</h3>

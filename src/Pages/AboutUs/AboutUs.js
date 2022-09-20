@@ -3,7 +3,7 @@ import './AboutUs.css'
 
 const AboutUs = () => {
     return (
-        <div className=' mt-5'>
+        <div className=' mt-'>
             <div className='aboutUsBanner'>
                 <div className='overlay h-100 d-flex align-items-center justify-content-center'>
                     <div className='text-white'>

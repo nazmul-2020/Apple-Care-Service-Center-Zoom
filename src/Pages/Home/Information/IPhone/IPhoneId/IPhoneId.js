@@ -17,12 +17,12 @@ import Apple_iPhone_13Blue from '../../../../../assets/Images/Apple_iPhone_13Blu
 
 const IPhoneId = () => {
     return (
-        <div className='my-5'>
+        <div className='my-'>
             <div className='iPhoneId'>
                 <div className='overlay h-100'>
                     <div className=' pt-5 w-75 ms-auto'>
                         <h4 className='text-center text-info'>iPhone 13 Pro Max Repair & Service Lists</h4>
-                        <div className='row g-4 mt-2'>
+                        <div className='row g-2 mx-0 mt-2'>
                             <div className='col-12 col-md-6 col-lg-4'>
                                 <div className='text-white fw-bold'>
                                     <p className='border-start border-warning mb-2 border-2 bo ps-2'>iPhone 13 Pro Max Released 2021, September 24</p>
@@ -255,9 +255,6 @@ const IPhoneId = () => {
                     </div>
                 </div>
             </div>
-
-
-
 
         </div>
     );

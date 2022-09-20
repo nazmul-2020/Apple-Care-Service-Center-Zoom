@@ -8,7 +8,7 @@ import { Button, Card } from 'react-bootstrap';
 const Blog = () => {
     return (
         <div >
-            <div className='my-5  blogBanner'>
+            <div className='my-  blogBanner'>
                 <div className='d-flex align-items-center justify-content-center   overlay h-100'>
                     <div className=''>
                         <h1 className=' text-white'>Blog</h1>
@@ -17,7 +17,7 @@ const Blog = () => {
                 </div>
 
             </div>
-            <div>
+            <div className='mt-3'>
                 <h3 className='text-center'>iCare Apple Blog</h3>
 
                 <div className="container pb-5">

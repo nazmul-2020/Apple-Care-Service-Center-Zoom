@@ -1,0 +1,12 @@
+.watch-container{
+    background: #83838321;
+    /* background: #838383; */
+}
+
+.watch-card{
+    transition: all .5s;
+}
+
+.watch-card:hover{
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }

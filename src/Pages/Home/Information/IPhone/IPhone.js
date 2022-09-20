@@ -19,7 +19,7 @@ const IPhone = () => {
     // }, [])
 
     return (
-        <div className='my-5'>
+        <div className='my-'>
             <div className='iPhoneBanner'>
                 <div className='overlay d-flex align-items-center h-100 justify-content-center'>
                     <div>

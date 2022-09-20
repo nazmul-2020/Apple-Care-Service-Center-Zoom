@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 
 const MacBook = () => {
     return (
-        <div className='my-5'>
+        <div className='my-'>
               <div className='macBanner'>
                 <div className='overlay d-flex justify-content-center align-items-center h-100'>
                     <div>

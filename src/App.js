@@ -16,7 +16,7 @@ import IMac22 from "./Pages/Home/Information/Mac/IMac22";
 import IMacBookPro from "./Pages/Home/Information/Mac/IMacBookPro/IMacBookPro";
 import Mac from "./Pages/Home/Information/Mac/Mac";
 import MacBook from "./Pages/Home/Information/MacBook";
-import Watch from "./Pages/Home/Information/Watch";
+import Watch from "./Pages/Home/Information/Watch/Watch";
 import NotFound from "./Pages/NotFound/NotFound";
 import One from "./Pages/One/One";
 import Footer from "./Pages/Shared/Footer/Footer";
@@ -38,7 +38,6 @@ function App() {
         <Route path="/iMac" element={<Mac />}>
           {/* <Route path='/iMacBookP' element={<IMacBookPro/>}></Route> */}
           <Route path='/iMac22' element={<IMac22/>}></Route>
-
         </Route>
         <Route path="/watch" element={<Watch />}></Route>
         <Route path="/iPhoneUnlock" element={<IPhoneUnlock />}></Route>

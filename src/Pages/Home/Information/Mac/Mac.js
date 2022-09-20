@@ -4,8 +4,8 @@ import './Mac.css'
 
 const Mac = () => {
     return (
-        <div className='my-5'>
-            <div className='macBanner mt-5'>
+        <div className='my-'>
+            <div className='macBanner mt-'>
                 <div className='overlay d-flex align-items-center justify-content-center h-100'>
                     <div className='text-white text-center'>
                         <h3>Mac Repair</h3>
