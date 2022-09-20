@@ -47,31 +47,31 @@ const Banner = () => {
         <div>
            
 
-            <div className="hero-area">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-8 offset-md-2 col-sm-12">
-                            <div className="search-box-container text-center">
-                                <ul className="nav">
-                                    <li className="nav-item"><a className="active" data-toggle="tab" href="#service">SERVICE</a></li>
-                                    <li className="nav-item"><a data-toggle="tab" href="#shop">SHOP</a></li>
+            <div class="hero-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2 col-sm-12">
+                            <div class="search-box-container text-center">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="active" data-toggle="tab" href="#service">SERVICE</a></li>
+                                    <li class="nav-item"><a data-toggle="tab" href="#shop">SHOP</a></li>
                                 </ul>
 
-                                <div className="tab-content">
-                                    <div id="service" className="container tab-pane active">
-                                        <div className="searchBox">
-                                            <div className="input-group form-label-group">
-                                                <input type="text" id="searchService" className="form-control"
+                                <div class="tab-content">
+                                    <div id="service" class="container tab-pane active">
+                                        <div class="searchBox">
+                                            <div class="input-group form-label-group">
+                                                <input type="text" id="searchService" class="form-control"
                                                     placeholder="Search By Service Type" onkeyup="showResult(this.value)"
                                                     required />
                                                 <label for="searchService">Services</label>
-                                                <div className="input-group-append">
-                                                    <button className="btn" type="button"><i className="bi bi-search"></i></button>
+                                                <div class="input-group-append">
+                                                    <button class="btn" type="button"><i class="bi bi-search"></i></button>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="search-result searchServiceResult" style={{ display: "none" }}>
-                                            <ul className="item-list serviceList">
+                                        <div class="search-result searchServiceResult" style={{ display: "none" }}>
+                                            <ul class="item-list serviceList">
                                                 <li>
                                                     {/* <img src="img/iphone.jpg" alt=""> */}
                                                     <p>iPhone Repair</p>
@@ -108,20 +108,20 @@ const Banner = () => {
                                         </div>
                                     </div>
                                     {/* <!-- tab pane close --> */}
-                                    <div id="shop" className="container tab-pane fade">
-                                        <div className="searchBox">
-                                            <div className="input-group form-label-group">
-                                                <input type="text" id="searchShop" className="form-control"
+                                    <div id="shop" class="container tab-pane fade">
+                                        <div class="searchBox">
+                                            <div class="input-group form-label-group">
+                                                <input type="text" id="searchShop" class="form-control"
                                                     placeholder="Search By Categories" onkeyup="showResult(this.value)"
                                                     required />
                                                 <label for="searchShop">Products</label>
-                                                <div className="input-group-append">
-                                                    <button className="btn" type="button"><i className="bi bi-search"></i></button>
+                                                <div class="input-group-append">
+                                                    <button class="btn" type="button"><i class="bi bi-search"></i></button>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="search-result searchShopResult" style={{ display: "none" }}>
-                                            <ul className="item-list shopList">
+                                        <div class="search-result searchShopResult" style={{ display: "none" }}>
+                                            <ul class="item-list shopList">
                                                 <li>
                                                     {/* <img src="img/iphone.jpg" alt=""> */}
                                                     <p>iPhone Repair 2</p>

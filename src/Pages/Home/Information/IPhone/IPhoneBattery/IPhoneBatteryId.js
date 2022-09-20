@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 const IPhoneBatteryId = () => {
     return (
-        <div className='my-5'>
-            <div className=' pt-5'>
+        <div className='my-'>
+            <div className=' pt-3'>
                 <div className="w-75 mx-auto">
                     <div className="row">
                         <div className='col col-md-12 col-lg-6'>
@@ -49,15 +49,15 @@ const IPhoneBatteryId = () => {
                         <div className="col col-md-6 col-lg-6 ">
 
                             <div className=''>
-                                <div className="nav nav-tabs border-0" id="nav-tab" role="tablist">
-                                    <button className={({ isActive }) => (isActive ? "active-link" : "link")} className="nav-link active border-dark rounded-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="" aria-controls="nav-home" aria-selected="true">Description</button>
+                                <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                                    <button className={({ isActive }) => (isActive ? "active-link" : "link")} class="nav-link active border-dark rounded-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="" aria-controls="nav-home" aria-selected="true">Description</button>
                                     <button className={({ isActive }) => (isActive ? "active-link" : "link")}
-                                        className="nav-link border-dark rounded-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Warranty</button>
+                                        class="nav-link border-dark rounded-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Warranty</button>
                                 </div>
 
 
-                                <div className="tab-content border pt-5 ps-3 border-dark" id="nav-tabContent">
-                                    <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="tab-content border pt-5 ps-3 border-dark" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                         <h3>iPhone 13 Pro Max Original Battery</h3>
                                         <p className='mt-3 mb-0 fw-bold fs-5 text-decoration-underline'>Battery Specifications:</p>
                                         <p>Type: Li-Ion 4352 mAh</p>
@@ -69,7 +69,7 @@ const IPhoneBatteryId = () => {
                                         <p>18 Months</p>
                                         <p className='fw-bold fs-5'>NB: 30-days money-back guarantee if you are not satisfied.</p>
                                     </div>
-                                    <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                         <p className='mb-4 fw-bold fs-5'>Battery Warranty : 18 month</p>
                                     </div>
                                 </div>
@@ -107,10 +107,10 @@ const IPhoneBatteryId = () => {
                         <div className="row g-3">
                             <div className='col col-md-6 col-lg-3'>
                                 <div>
-                                    <div className="card border-0 shadow" style={{ width: '15rem' }}>
-                                        <img height='250' src={red_iphone_13_pro} className="card-img-top mt-2" alt="..." />
-                                        <div className="card-body">
-                                            <p className="card-text">iPhone 13 Pro Max Silicone Case</p>
+                                    <div class="card border-0 shadow" style={{ width: '15rem' }}>
+                                        <img height='250' src={red_iphone_13_pro} class="card-img-top mt-2" alt="..." />
+                                        <div class="card-body">
+                                            <p class="card-text">iPhone 13 Pro Max Silicone Case</p>
                                             <button className="btn btn-outline-info fw-bol shadow border-0 d-block mx-auto text-dark">Add to Cart</button>
                                         </div>
                                     </div>
@@ -119,10 +119,10 @@ const IPhoneBatteryId = () => {
 
                             <div className='col col-md-6 col-lg-3'>
                                 <div>
-                                    <div className="card border-0 shadow" style={{ width: '15rem' }}>
-                                        <img height='250' src={iphone_13_promax_leather} className="card-img-top mt-2" alt="..." />
-                                        <div className="card-body">
-                                            <p className="card-text">iPhone 13 Pro Max Leather Case</p>
+                                    <div class="card border-0 shadow" style={{ width: '15rem' }}>
+                                        <img height='250' src={iphone_13_promax_leather} class="card-img-top mt-2" alt="..." />
+                                        <div class="card-body">
+                                            <p class="card-text">iPhone 13 Pro Max Leather Case</p>
                                             <button className="btn btn-outline-info fw-bol shadow border-0 d-block mx-auto text-dark">Add to Cart</button>
                                         </div>
                                     </div>
@@ -131,10 +131,10 @@ const IPhoneBatteryId = () => {
 
                             <div className='col col-md-6 col-lg-3'>
                                 <div>
-                                    <div className="card border-0 shadow" style={{ width: '15rem' }}>
-                                        <img height='250' src={iphone13_screen_protector} className="card-img-top mt-2" alt="..." />
-                                        <div className="card-body">
-                                            <p className="card-text">iPhone 13 Screen Protector cas</p>
+                                    <div class="card border-0 shadow" style={{ width: '15rem' }}>
+                                        <img height='250' src={iphone13_screen_protector} class="card-img-top mt-2" alt="..." />
+                                        <div class="card-body">
+                                            <p class="card-text">iPhone 13 Screen Protector cas</p>
                                             <button className="btn btn-outline-info fw-bol shadow border-0 d-block mx-auto text-dark">Add to Cart</button>
                                         </div>
                                     </div>
@@ -143,10 +143,10 @@ const IPhoneBatteryId = () => {
 
                             <div className='col col-md-6 col-lg-3'>
                                 <div>
-                                    <div className="card border-0 shadow" style={{ width: '15rem' }}>
-                                        <img height='250' src={red_iphone_13_pro} className="card-img-top mt-2" alt="..." />
-                                        <div className="card-body">
-                                            <p className="card-text">iPhone 13 Pro Max Silicone Case</p>
+                                    <div class="card border-0 shadow" style={{ width: '15rem' }}>
+                                        <img height='250' src={red_iphone_13_pro} class="card-img-top mt-2" alt="..." />
+                                        <div class="card-body">
+                                            <p class="card-text">iPhone 13 Pro Max Silicone Case</p>
                                             <button className="btn btn-outline-info fw-bol shadow border-0 d-block mx-auto text-dark">Add to Cart</button>
                                         </div>
                                     </div>

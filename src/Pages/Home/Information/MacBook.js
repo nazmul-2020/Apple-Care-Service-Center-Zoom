@@ -22,48 +22,48 @@ const MacBook = () => {
                 <div className='row g-3 mx-auto'>
                     <div className='col col-md-3 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/macBook'>
-                            <div className="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 className="">MacBook Pro</h5>
+                            <div class="mac-Ca d-flex align-items-center justify-content-center ">
+                                <h5 class="">MacBook Pro</h5>
                             </div>
                         </Link>
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iMac/iMac22'>
-                            <div className="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 className="">MacBook Air</h5>
+                            <div class="mac-Ca d-flex align-items-center justify-content-center ">
+                                <h5 class="">MacBook Air</h5>
                             </div>
                         </Link>
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/'>
-                            <div className="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 className="">Macbook </h5>
+                            <div class="mac-Ca d-flex align-items-center justify-content-center ">
+                                <h5 class="">Macbook </h5>
                             </div>
                         </Link>
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/'>
-                            <div className="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 className="">Mac Mini</h5>
+                            <div class="mac-Ca d-flex align-items-center justify-content-center ">
+                                <h5 class="">Mac Mini</h5>
                             </div>
                         </Link>
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/'>
-                            <div className="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 className="">iMac</h5>
+                            <div class="mac-Ca d-flex align-items-center justify-content-center ">
+                                <h5 class="">iMac</h5>
                             </div>
                         </Link>
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/'>
-                            <div className="mac-Ca d-flex align-items-center justify-content-center ">
-                                <h5 className="">Macbook Pro</h5>
+                            <div class="mac-Ca d-flex align-items-center justify-content-center ">
+                                <h5 class="">Macbook Pro</h5>
                             </div>
                         </Link>
                     </div>

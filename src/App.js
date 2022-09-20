@@ -17,6 +17,7 @@ import IMacBookPro from "./Pages/Home/Information/Mac/IMacBookPro/IMacBookPro";
 import Mac from "./Pages/Home/Information/Mac/Mac";
 import MacBook from "./Pages/Home/Information/MacBook";
 import Watch from "./Pages/Home/Information/Watch/Watch";
+import WatchBattery from "./Pages/Home/Information/Watch/WatchBattery/WatchBattery";
 import WatchId from "./Pages/Home/Information/Watch/WatchId/WatchId";
 import NotFound from "./Pages/NotFound/NotFound";
 import One from "./Pages/One/One";
@@ -42,6 +43,7 @@ function App() {
         </Route>
         <Route path="/watch" element={<Watch />}></Route>
         <Route path="/watchId" element={<WatchId/>}></Route>
+        <Route path="/watchBattery" element={<WatchBattery/>}></Route>
         
         <Route path="/iPhoneUnlock" element={<IPhoneUnlock />}></Route>
         <Route path="/iPad" element={<IPad />}></Route>
