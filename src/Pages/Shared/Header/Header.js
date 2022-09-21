@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import logo from '../../../assets/img/logo.png'
 import './Header.css'
 
@@ -32,38 +33,38 @@ const Header = () => {
                 </Container>
             </Navbar> */}
 
-            <div class="header-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <nav class="navbar navbar-expand-lg">
-                                <div class="container">
-                                    <a class="navbar-brand" href="/">
+            <div className="header-area">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <nav className="navbar navbar-expand-lg">
+                                <div className="container">
+                                    <a className="navbar-brand" href="/">
                                         <img src={logo} alt="" />
                                     </a>
-                                    <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                                    <button className="navbar-toggler border-0" type="button" data-toggle="collapse"
                                         data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                         aria-label="Toggle navigation">
-                                        <i class="bi bi-list"></i>
+                                        <i className="bi bi-list"></i>
                                     </button>
-                                    <div class="collapse navbar-collapse" id="navbarNav">
-                                        <ul class="navbar-nav ms-auto">
-                                            <li class="nav-item"><a class="nav-link" href="/aboutUs">About Us</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-                                            <li class="nav-item dropdown">
-                                                <a class="nav-link dropdown-toggle" href="" id="dropdown01"
+                                    <div className="collapse navbar-collapse" id="navbarNav">
+                                        <ul className="navbar-nav ms-auto">
+                                            <li className="nav-item"><a className="nav-link" href="/aboutUs">About Us</a></li>
+                                            <li className="nav-item"><a className="nav-link" href="/contact">Contact Us</a></li>
+                                            <li className="nav-item dropdown">
+                                                <a className="nav-link dropdown-toggle" href="" id="dropdown01"
                                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Carts <i
-                                                        class="bi bi-bag"></i></a>
-                                                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                                    <div class="cart-dropdown-box">
-                                                        <i class="bi bi-cart3"></i>
+                                                        className="bi bi-bag"></i></a>
+                                                <div className="dropdown-menu" aria-labelledby="dropdown01">
+                                                    <div className="cart-dropdown-box">
+                                                        <i className="bi bi-cart3"></i>
                                                         <p>Your cart is empty</p>
-                                                        <a href="" class="btn btn-primary login">Shop our products</a>
+                                                        <a href="" className="btn btn-primy login">Shop our products</a>
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
-                                            <li class="nav-item"><button class="btn btn-primary login">login</button></li>
+                                            <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
+                                            <li className="nav-item"><button className="btn btn-outline-primary login"><Link className='text-decoration-none' to='/login'>Login</Link></button></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -76,8 +77,8 @@ const Header = () => {
                 {/* <!-- Container close --> */}
             </div>
             {/* <!-- Header area close --> */}
-            
-            
+
+
             {/* <!-- Hero area close --> */}
         </div>
     );

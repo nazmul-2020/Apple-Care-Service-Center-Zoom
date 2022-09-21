@@ -41,7 +41,7 @@ const WatchId = () => {
                             <div className='text-center p-2 watch'>
                                 <img className='d-block mx-auto' src={speaker} alt="" />
                                 <p className='fw-bold m-0'>Speaker Replacement</p>
-                                <Link to='/' className='text-decoration-none'>
+                                <Link to='/watchBattery' className='text-decoration-none'>
                                     <button className='btn btn-sm btn-outline-dark'>View Details  </button>
                                 </Link>
                             </div>
@@ -51,7 +51,7 @@ const WatchId = () => {
                             <div className='text-center p-2 watch'>
                                 <img className='d-block mx-auto' src={watch} alt="" />
                                 <p className='fw-bold'>Software Issue</p>
-                                <Link to='/' className='text-decoration-none'>
+                                <Link to='/watchBattery' className='text-decoration-none'>
                                     <button className='btn btn-sm btn-outline-dark'>View Details  </button>
                                 </Link>
                             </div>
@@ -61,7 +61,7 @@ const WatchId = () => {
                             <div className='text-center p-2 watch'>
                                 <img className='d-block mx-auto' src={apple} alt="" />
                                 <p className='fw-bold'>Display Replacement</p>
-                                <Link to='/' className='text-decoration-none'>
+                                <Link to='/watchBattery' className='text-decoration-none'>
                                     <button className='btn btn-sm btn-outline-dark'>View Details  </button>
                                 </Link>
                             </div>
@@ -71,7 +71,7 @@ const WatchId = () => {
                             <div className='text-center p-2 watch'>
                                 <img className='d-block mx-auto' src={appleWatch} alt="" />
                                 <p className='fw-bold'>Battery Replacement</p>
-                                <Link to='/' className='text-decoration-none'>
+                                <Link to='/watchBattery' className='text-decoration-none'>
                                     <button className='btn btn-sm btn-outline-dark'>View Details  </button>
                                 </Link>
                             </div>
@@ -81,7 +81,7 @@ const WatchId = () => {
                             <div className='text-center p-2 watch'>
                                 <img className='d-block mx-auto' src={watchBattery} alt="" />
                                 <p className='fw-bold'>Battery Replacement</p>
-                                <Link to='/' className='text-decoration-none'>
+                                <Link to='/watchBattery' className='text-decoration-none'>
                                     <button className='btn btn-sm btn-outline-dark'>View Details  </button>
                                 </Link>
                             </div>

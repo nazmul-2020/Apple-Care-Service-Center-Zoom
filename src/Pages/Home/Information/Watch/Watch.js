@@ -22,94 +22,94 @@ const Watch = () => {
                     <div className='row g-3 py-3'>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/watchId'>
-                                <div class="d-flex align-items-center watch-card justify-content-center p-1 ">
-                                    <h6 class="">Apple Watch Series 7 (45mm)</h6>
+                                <div className="d-flex align-items-center watch-card justify-content-center p-1 ">
+                                    <h6 className="">Apple Watch Series 7 (45mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1 ">
-                                    <h6 class="">Apple Watch Series 7 (41mm)</h6>
-                                </div>
-                            </NavLink>
-                        </div>
-
-                        <div className='col col-md-4 col-lg-2 '>
-                            <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class="d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series  (44mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1 ">
+                                    <h6 className="">Apple Watch Series 7 (41mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series 6 (44mm)</h6>
+                                <div className="d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series  (44mm)</h6>
+                                </div>
+                            </NavLink>
+                        </div>
+
+                        <div className='col col-md-4 col-lg-2 '>
+                            <NavLink className='text-decoration-none text-dark' to='/'>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series 6 (44mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series 6 (40mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series 6 (40mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series ES (44mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series ES (44mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series ES (40mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series ES (40mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch 5 (44mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch 5 (44mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series 5 (40mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series 5 (40mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series 4 (44mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series 4 (44mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series 4 (40mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series 4 (40mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series 3 (42mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series 3 (42mm)</h6>
                                 </div>
                             </NavLink>
                         </div>
                         <div className='col col-md-4 col-lg-2 '>
                             <NavLink className='text-decoration-none text-dark' to='/'>
-                                <div class=" d-flex align-items-center watch-card justify-content-center p-1">
-                                    <h6 class="">Apple Watch Series 3 (38mm)</h6>
+                                <div className=" d-flex align-items-center watch-card justify-content-center p-1">
+                                    <h6 className="">Apple Watch Series 3 (38mm)</h6>
                                 </div>
                             </NavLink>
                         </div>

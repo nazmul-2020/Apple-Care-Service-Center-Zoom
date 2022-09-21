@@ -47,16 +47,15 @@ const WatchBattery = () => {
                     <div className="col col-md-6 col-lg-6 ">
 
                         <div className=''>
-                            <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
-                                <button className={({ isActive }) => (isActive ? "active-link" : "link")} class="nav-link active border-dark rounded-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="" aria-controls="nav-home" aria-selected="true">Description</button>
-                                <button className={({ isActive }) => (isActive ? "active-link" : "link")}
-                                    class="nav-link border-dark rounded-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Warranty</button>
+                            <div className="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                                <button className="nav-link active border-dark rounded-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="" aria-controls="nav-home" aria-selected="true">Description</button>
+                                <button className="nav-link border-dark rounded-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Warranty</button>
                             </div>
 
 
-                            <div class="tab-content border pt-5 ps-3 border-dark" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                    <h3>iPhone 13 Pro Max Original Battery</h3>
+                            <div className="tab-content border pt-5 ps-3 border-dark" id="nav-tabContent">
+                                <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <h3>Apple Watch Series 7 (45mm)Battery</h3>
                                     <p className='mt-3 mb-0 fw-bold fs-5 text-decoration-underline'>Battery Specifications:</p>
                                     <p>Type: Li-Ion 4352 mAh</p>
                                     <p className='mt-3 mb-0 fw-bold fs-5 text-decoration-underline'> Compatibility:</p>
@@ -67,7 +66,7 @@ const WatchBattery = () => {
                                     <p>18 Months</p>
                                     <p className='fw-bold fs-5'>NB: 30-days money-back guarantee if you are not satisfied.</p>
                                 </div>
-                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                     <p className='mb-4 fw-bold fs-5'>Battery Warranty : 18 month</p>
                                 </div>
                             </div>

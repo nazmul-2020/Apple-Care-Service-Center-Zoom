@@ -19,6 +19,8 @@ import MacBook from "./Pages/Home/Information/MacBook";
 import Watch from "./Pages/Home/Information/Watch/Watch";
 import WatchBattery from "./Pages/Home/Information/Watch/WatchBattery/WatchBattery";
 import WatchId from "./Pages/Home/Information/Watch/WatchId/WatchId";
+import Login from "./Pages/Login/Login/Login";
+import SignUp from "./Pages/Login/SignUp/SignUp";
 import NotFound from "./Pages/NotFound/NotFound";
 import One from "./Pages/One/One";
 import Footer from "./Pages/Shared/Footer/Footer";
@@ -53,6 +55,8 @@ function App() {
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/one" element={<One />}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/signUp" element={<SignUp/>}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
       <Footer />
