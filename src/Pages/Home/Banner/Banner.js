@@ -45,8 +45,6 @@ const Banner = () => {
         // </div>
 
         <div>
-           
-
             <div className="hero-area">
                 <div className="container">
                     <div className="row">
