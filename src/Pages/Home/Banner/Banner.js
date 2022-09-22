@@ -60,7 +60,7 @@ const Banner = () => {
                                         <div className="searchBox">
                                             <div className="input-group form-label-group">
                                                 <input type="text" id="searchService" className="form-control"
-                                                    placeholder="Search By Service Type" onkeyup="showResult(this.value)"
+                                                    placeholder="Search By Service Type" onkeyUp="showResult(this.value)"
                                                     required />
                                                 <label for="searchService">Services</label>
                                                 <div className="input-group-append">
@@ -110,7 +110,7 @@ const Banner = () => {
                                         <div className="searchBox">
                                             <div className="input-group form-label-group">
                                                 <input type="text" id="searchShop" className="form-control"
-                                                    placeholder="Search By Categories" onkeyup="showResult(this.value)"
+                                                    placeholder="Search By Categories" onkeyUp="showResult(this.value)"
                                                     required />
                                                 <label for="searchShop">Products</label>
                                                 <div className="input-group-append">

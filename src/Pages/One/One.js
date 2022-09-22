@@ -18,7 +18,7 @@ const One = () => {
                             <h4>iPhone 6/6s Clear Case</h4>
                             <p><span className='fw-bold'>Price</span> : 120</p>
                             <label className='fw-bold' htmlFor="">QUANTITY :</label>
-                            <input type="number" className='aaa w-2 ms-2' name="" id="" />
+                            <input type="number" className='aaa ms-2' name="" id="" />
                             <br />
                             <button className='btn mt-3 btn-outline-dark'>Add To Cart</button>
 

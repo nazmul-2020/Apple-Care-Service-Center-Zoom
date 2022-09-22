@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Blog from "./Pages/Blog/Blog";
+import Cart from "./Pages/Cart/Cart";
 import ContactUs from "./Pages/Home/ContactUs/ContactUs";
 import Home from "./Pages/Home/Home";
 import IPad from "./Pages/Home/Information/IPad/IPad";
@@ -25,6 +26,7 @@ import NotFound from "./Pages/NotFound/NotFound";
 import One from "./Pages/One/One";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
+import Shop from "./Pages/Shop/Shop";
 
 function App() {
   return (
@@ -52,9 +54,12 @@ function App() {
         <Route path="/iPadDetails" element={<IPadDetails />}></Route>
         {/*---------------- Category Route start------------------ */}
         <Route path="/aboutUs" element={<AboutUs />}></Route>
+        <Route path=""></Route>
+        <Route path="/shop" element={<Shop/>}></Route>
         <Route path="/contact" element={<ContactUs />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/one" element={<One />}></Route>
+        <Route path="cart" element={<Cart/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/signUp" element={<SignUp/>}></Route>
         <Route path="*" element={<NotFound />}></Route>

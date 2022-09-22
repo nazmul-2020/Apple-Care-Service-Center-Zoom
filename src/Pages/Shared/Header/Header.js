@@ -51,8 +51,9 @@ const Header = () => {
                                         <ul className="navbar-nav ms-auto">
                                             <li className="nav-item"><a className="nav-link" href="/aboutUs">About Us</a></li>
                                             <li className="nav-item"><a className="nav-link" href="/contact">Contact Us</a></li>
+                                            <li className="nav-item"><a className="nav-link" href="/shop">Shop</a></li>
                                             <li className="nav-item dropdown">
-                                                <a className="nav-link dropdown-toggle" href="" id="dropdown01"
+                                                <a className="nav-link dropdown-toggle" href="/cart" id="dropdown01"
                                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Carts <i
                                                         className="bi bi-bag"></i></a>
                                                 <div className="dropdown-menu" aria-labelledby="dropdown01">
@@ -64,12 +65,11 @@ const Header = () => {
                                                 </div>
                                             </li>
                                             <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
-                                            <li className="nav-item"><button className="btn btn-outline-primary login"><Link className='text-decoration-none' to='/login'>Login</Link></button></li>
+                                            <li className="nav-item"><button className="btn btn-outline-primary login"><Link className='text-decoration-none text-dark' to='/login'>Login</Link></button></li>
                                         </ul>
                                     </div>
                                 </div>
                             </nav>
-
                         </div>
                     </div>
                     {/* <!-- Row close --> */}

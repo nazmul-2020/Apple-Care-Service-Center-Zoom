@@ -1,0 +1,22 @@
+.shopBanner{
+    background-image: url(../../assets/Images/shopBanner.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.category-card{
+    transition: all 0.3s;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.category-card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      
+}
+
+.bg{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #ECEFF1;
+}

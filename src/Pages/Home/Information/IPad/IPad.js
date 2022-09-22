@@ -5,7 +5,7 @@ import './IPad.css'
 
 const IPad = () => {
     return (
-        <div className='my-5'>
+        <div className='my-'>
             <div className='iPhoneBanner'>
                 <div className='overlay d-flex justify-content-center align-items-center h-100'>
                     <div>
