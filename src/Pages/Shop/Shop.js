@@ -1,9 +1,15 @@
 import React from 'react';
 import './Shop.css';
-import { AiFillCaretDown } from "react-icons/ai";
 import Spidercae from '../../assets/Images/iPhoneRepair/Spidercae-iPhone-11.png'
 import headphone from '../../assets/Images/iPhoneRepair/headphone-and-speaker.png'
 import smartphone_usb from '../../assets/Images/iPhoneRepair/smartphone-usb.png'
+import iphone_xr from '../../assets/Images/iPhoneRepair/one/iphone-xr-11-screen.png'
+import protector from '../../assets/Images/iPhoneRepair/one/2protector.png'
+import iphone_xr11 from '../../assets/Images/iPhoneRepair/one/iphone_xr11.png'
+import iphoneHD from '../../assets/Images/iPhoneRepair/one/iphoneHD.png'
+import iphone_x from '../../assets/Images/iPhoneRepair/one/iphone_x.png'
+import iphone_r11 from '../../assets/Images/iPhoneRepair/one/iphone_r11.png'
+import iphone_11 from '../../assets/Images/iPhoneRepair/one/iphone_11.png'
 
 
 const Shop = () => {
@@ -113,6 +119,161 @@ const Shop = () => {
                                 <div>
                                     <button className='btn btn-primary rounded-0 d-block mx-auto'>Find product</button>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='container mt-3'>
+                <div className='d-flex align-items-center justify-content-between'>
+                    <div className=''>
+                        <h3>What We Offer</h3>
+                    </div>
+
+                    <div>
+                        <span className='me-2 fs-5'>Featured</span>
+                        <span className='fs-5'>New arrivals</span>
+                    </div>
+                </div>
+
+                <div className='row g-3'>
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_xr} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={protector} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker PowerLine Select USB-C 2.0 Cable - 3ft</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button disabled className='btn btn-sm btn-outline-primary rounded-0 my-1 '>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_xr11} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker Soundcore Q10i Wireless Headphone</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphoneHD} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker Soundcore Life Note 3i True Earbuds</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_x} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker Soundcore Wakey Bluetooth Speaker</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_xr} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_r11} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker Soundcore Life P2i True Wireless Earbuds</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_xr} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_11} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker Soundcore Life P2i True Wireless Earbuds</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_xr} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_xr} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-12 col-md-4 col-lg-2'>
+                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                            <img src={iphone_xr} alt="" />
+                            <span>10%</span>
+                            <div className='text-center mt-2'>
+                                <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
+                                <p className='m-0 mt-1'>200 Tk</p>
+                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>

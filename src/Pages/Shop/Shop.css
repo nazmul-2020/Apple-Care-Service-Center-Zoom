@@ -10,11 +10,25 @@
     transition: all 0.3s;
     border: 1px solid gray;
     border-radius: 3px;
+    background-color: #F9F9F9;
+    position: relative;
 }
 
 .category-card:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
       
+}
+
+.category-card span{
+    background-color: rgba(0, 0, 0, 0.667);
+    padding: 4px;
+    color: white;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border-bottom-left-radius: 5px;
+    border: px solid red;
+
 }
 
 .accessories{
