@@ -1,4 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { FreeMode, Navigation, Pagination } from 'swiper';
+import { Button, Card } from 'react-bootstrap';
 import './Shop.css';
 import Spidercae from '../../assets/Images/iPhoneRepair/Spidercae-iPhone-11.png'
 import headphone from '../../assets/Images/iPhoneRepair/headphone-and-speaker.png'
@@ -13,6 +17,10 @@ import iphone_11 from '../../assets/Images/iPhoneRepair/one/iphone_11.png'
 import shipping from '../../assets/Icon/Quick Shipping 1.png'
 import Quick from '../../assets/Icon/Quick Shipping 2.png'
 import QuickShipping from '../../assets/Icon/Quick Shipping 3.png'
+import iPhon_X from '../../assets/Images/iPhone-X.png'
+
+
+
 
 
 const Shop = () => {
@@ -330,6 +338,109 @@ const Shop = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div className='my-5'>
+                    <h2 className='text-center'><span className='text-info'>TOP</span> SELLING</h2>
+
+                    <div className='my-3 text-center'>
+                        <Link to='/'><span className='m-2 p-2 fw-bold'>Case And Protection</span></Link>
+                        <Link to='/'><span className='m-2 p-2 fw-bold'>Battery</span></Link>
+                        <Link to='/'><span className='m-2 p-2 fw-bold'>Headphones And Speaker</span></Link>
+                        <Link to='/'><span className='m-2 p-2 fw-bold'>Power And Cables</span></Link>
+                    </div>
+
+                    <div className=''>
+                    <Swiper
+                        slidesPerView={4}
+                        spaceBetween={30}
+                        freeMode={true}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        modules={[FreeMode, Pagination, Navigation]}
+                        className="mySwiper py-4 my-4"
+                    >
+                        <SwiperSlide>
+                            <div width='100 mt-3'>
+                                <Card style={{ width: '200', }}>
+                                    <Card.Img variant="top" className='w-100' src={iPhon_X} />
+                                    <Card.Body>
+                                        <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                        <p>999 Tk</p>
+                                            <Link className='text-decoration-none' to='/one'>
+                                        <Button variant="primary">
+                                                Add to Card
+                                            </Button>
+                                                </Link>
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        </SwiperSlide>
+                        
+                        <SwiperSlide>
+                            <div>
+                                <Card style={{ width: '18m' }}>
+                                    <Card.Img variant="top" className='w-100' src={iPhon_X} />
+                                    <Card.Body>
+                                        <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                        <p>999 Tk</p>
+                                        <Button variant="primary">Add to Card</Button>
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <Card style={{ width: '18m' }}>
+                                    <Card.Img variant="top" className='w-100' src={iPhon_X} />
+                                    <Card.Body>
+                                        <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                        <p>999 Tk</p>
+                                        <Button variant="primary">Add to Card</Button>
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <Card style={{ width: '1m' }}>
+                                    <Card.Img variant="top" className='w-100' src={iPhon_X} />
+                                    <Card.Body>
+                                        <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                        <p>999 Tk</p>
+                                        <Button variant="primary">Add to Card</Button>
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <Card style={{ width: '18m' }}>
+                                    <Card.Img variant="top" className='w-100' src={iPhon_X} />
+                                    <Card.Body>
+                                        <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                        <p>999 Tk</p>
+                                        <Button variant="primary">Add to Card</Button>
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div>
+                                <Card style={{ width: '18m' }}>
+                                    <Card.Img variant="top" className='w-100' src={iPhon_X} />
+                                    <Card.Body>
+                                        <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                        <p>999 Tk</p>
+                                        <Button variant="primary">Add to Card</Button>
+                                    </Card.Body>
+                                </Card>
+                            </div>
+                        </SwiperSlide>
+
+                    </Swiper>
+                </div>
                 </div>
             </div>
         </div>

@@ -25,6 +25,7 @@ const NewArrival = () => {
                     <span className='m-2 p-2 fw-bold'>Headphones And Speaker</span>
                     <span className='m-2 p-2 fw-bold'>Power And Cables</span>
                 </div>
+
                 <div className=''>
                     <Swiper
                         slidesPerView={4}
@@ -117,7 +118,7 @@ const NewArrival = () => {
                     </Swiper>
                 </div>
 
-            </div >
+            </div>
         </div >
     );
 };
