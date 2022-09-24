@@ -10,6 +10,9 @@ import iphoneHD from '../../assets/Images/iPhoneRepair/one/iphoneHD.png'
 import iphone_x from '../../assets/Images/iPhoneRepair/one/iphone_x.png'
 import iphone_r11 from '../../assets/Images/iPhoneRepair/one/iphone_r11.png'
 import iphone_11 from '../../assets/Images/iPhoneRepair/one/iphone_11.png'
+import shipping from '../../assets/Icon/Quick Shipping 1.png'
+import Quick from '../../assets/Icon/Quick Shipping 2.png'
+import QuickShipping from '../../assets/Icon/Quick Shipping 3.png'
 
 
 const Shop = () => {
@@ -124,6 +127,7 @@ const Shop = () => {
                     </div>
                 </div>
             </div>
+
             <div className='container mt-3'>
                 <div className='d-flex align-items-center justify-content-between'>
                     <div className=''>
@@ -136,7 +140,7 @@ const Shop = () => {
                     </div>
                 </div>
 
-                <div className='row g-3'>
+                <div className='row g-1'>
                     <div className='col-12 col-md-4 col-lg-2'>
                         <div className='my-2 p-1 category-card border-info rounded-0'>
                             <img src={iphone_xr} alt="" />
@@ -244,6 +248,7 @@ const Shop = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className='col-12 col-md-4 col-lg-2'>
                         <div className='my-2 p-1 category-card border-info rounded-0'>
                             <img src={iphone_xr} alt="" />
@@ -255,6 +260,7 @@ const Shop = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className='col-12 col-md-4 col-lg-2'>
                         <div className='my-2 p-1 category-card border-info rounded-0'>
                             <img src={iphone_xr} alt="" />
@@ -266,6 +272,7 @@ const Shop = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className='col-12 col-md-4 col-lg-2'>
                         <div className='my-2 p-1 category-card border-info rounded-0'>
                             <img src={iphone_xr} alt="" />
@@ -274,6 +281,52 @@ const Shop = () => {
                                 <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
                                 <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='row mt-3'>
+                    <div className='col-12 col-md-6 col-lg-3 '>
+                        <div className='d-flex align-items-center justify-content-between ggg p-3'>
+                            <div>
+                                <img className='border rounded-circle border-white p-1' src={shipping} alt="" />
+                            </div>
+                            <div className='text-center ms-'>
+                                <p className='m-0'>Quick Shipping Super fast delivery service</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-6 col-lg-3 '>
+                        <div className='d-flex align-items-center justify-content-between ggg p-3'>
+                            <div>
+                                <img className='border rounded-circle border-white p-1' src={Quick} alt="" />
+                            </div>
+                            <div className='text-center ms-'>
+                                <p className='m-0'>Instant Support Connect through chat / call</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-6 col-lg-3 '>
+                        <div className='d-flex align-items-center justify-content-between ggg p-3'>
+                            <div>
+                                <img className='border rounded-circle border-white p-1' src={QuickShipping} alt="" />
+                            </div>
+                            <div className='text-center ms-'>
+                                <p className='m-0'>Quick Shipping Super fast delivery service</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='col-12 col-md-6 col-lg-3 '>
+                        <div className='d-flex align-items-center justify-content-between ggg p-3'>
+                            <div>
+                                <img className='border rounded-circle border-white p-1' src={shipping} alt="" />
+                            </div>
+                            <div className='text-center ms-'>
+                                <p className='m-0'>Easy payment Multiple payment option</p>
                             </div>
                         </div>
                     </div>
