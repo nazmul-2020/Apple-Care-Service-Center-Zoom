@@ -1,5 +1,6 @@
 import React from 'react';
 import './Shop.css';
+import { AiFillCaretDown } from "react-icons/ai";
 import Spidercae from '../../assets/Images/iPhoneRepair/Spidercae-iPhone-11.png'
 import headphone from '../../assets/Images/iPhoneRepair/headphone-and-speaker.png'
 import smartphone_usb from '../../assets/Images/iPhoneRepair/smartphone-usb.png'
@@ -59,19 +60,64 @@ const Shop = () => {
                     </div>
                 </div>
             </div>
-            
-            <div className='py-3 bg'>
-                    <div className='text-center'>
-                        <h4>AUTHENTIC APPLE ACCESSORIES IN BANGLADESH</h4>
-                        <h4>Select your <span className='text-info'>accessories</span></h4>
-                        <div className='mt-4'>
-                            <input className='me-2 p-1' type="text" name="" id="" />
-                            <input className='me-2 p-1' type="text" name="" id="" />
-                            <input className='me-2 p-1' type="text" name="" id="" />
-                            <button className='btn'>Find Product</button>
+
+            <div className='py-3 accessories'>
+                <div className='text-center'>
+                    <h4>AUTHENTIC APPLE ACCESSORIES IN BANGLADESH</h4>
+                    <h4>Select Your <span className='text-white'>Accessories</span></h4>
+                    <div class="container">
+                        <div class="row mt-4 g-4 w-75 mx-auto">
+                            <div class="col-12 col-md-4 col-lg-3 ">
+                                <div>
+                                    <select className="form-select   p-2 rounded-0" aria-label="Default select example">
+                                        <option className='p-1' value="1">MacBook Pro</option>
+                                        <option value="2">iMac</option>
+                                        <option value="3">Mac min</option>
+                                        <option value="3">MacBook</option>
+                                        <option value="3">MacBook Air</option>
+                                        <option value="3">iPad</option>
+                                        <option value="3">Apple Watch</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-lg-3 ">
+                                <div>
+                                    <select className="form-select  p-2 rounded-0" aria-label="Default select example">
+                                        <option className='p-1' value="1">MacBook Pro</option>
+                                        <option value="2">iMac</option>
+                                        <option value="3">Mac min</option>
+                                        <option value="3">MacBook</option>
+                                        <option value="3">MacBook Air</option>
+                                        <option value="3">iPad</option>
+                                        <option value="3">Apple Watch</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-lg-3 ">
+                                <div>
+                                    <select className="form-select  border- p-2 rounded-0" aria-label="Default select example">
+                                        <option className='p-1' value="1">MacBook Pro</option>
+                                        <option value="2">iMac</option>
+                                        <option value="3">Mac min</option>
+                                        <option value="3">MacBook</option>
+                                        <option value="3">MacBook Air</option>
+                                        <option value="3">iPad</option>
+                                        <option value="3">Apple Watch</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-lg-3 bg-inf ">
+                                <div>
+                                    <button className='btn btn-primary rounded-0 d-block mx-auto'>Find product</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     );
 };
