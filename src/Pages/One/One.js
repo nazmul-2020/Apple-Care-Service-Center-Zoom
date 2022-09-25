@@ -14,17 +14,16 @@ const One = () => {
                     </div>
                     <div className='col col-md-6 col-lg-6 d-flex align-items-center'>
                         <div>
-
                             <h4>iPhone 6/6s Clear Case</h4>
                             <p><span className='fw-bold'>Price</span> : 120</p>
                             <label className='fw-bold' htmlFor="">QUANTITY :</label>
                             <input type="number" className='aaa ms-2' name="" id="" />
                             <br />
                             <button className='btn mt-3 btn-outline-dark'>Add To Cart</button>
-
                         </div>
                     </div>
                 </div>
+
                 <div className='row g-3 mt-3'>
                     <div className='col col-md-6 col-lg-6'>
                         <div>
@@ -44,6 +43,7 @@ const One = () => {
                             iPhone 6/6s
                         </div>
                     </div>
+
                     <div className='col col-md-6 col-lg-6'>
                         <div>
                             <iframe className='d-block ms-auto' width="500" height="315" src="https://www.youtube.com/embed/Xj8frf07a1k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -52,81 +52,84 @@ const One = () => {
                 </div>
 
                 <div className='row g-4 my-5'>
-                    <div className='col col-md-6 col-lg-4'>
-                        <Card style={{ width: '18r' }}>
-                            <Card.Img variant="top" className='w-100' src={sss} />
-                            <Card.Body>
-                                <Card.Title>iPhone Xr/11 Curved</Card.Title>
-                                <p>999 Tk</p>
-                               
-                                    <Button variant="primary">
-                                        Add to Card
-                                    </Button>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                    <div className='col col-md-6 col-lg-4'>
-                        <Card style={{ width: '18m' }}>
-                            <Card.Img variant="top" className='w-100' src={sss} />
-                            <Card.Body>
-                                <Card.Title>iPhone Xr/11 Curved</Card.Title>
-                                <p>999 Tk</p>
-                               
-                                    <Button variant="primary">
-                                        Add to Card
-                                    </Button>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                    <div className='col col-md-6 col-lg-4'>
+                    <div className='col col-md-6 col-lg-3'>
                         <Card style={{ width: '18em' }}>
                             <Card.Img variant="top" className='w-100' src={sss} />
                             <Card.Body>
                                 <Card.Title>iPhone Xr/11 Curved</Card.Title>
                                 <p>999 Tk</p>
-                               
-                                    <Button variant="primary">
-                                        Add to Card
-                                    </Button>
+
+                                <Button variant="primary">
+                                    Add to Card
+                                </Button>
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className='col col-md-6 col-lg-4'>
+
+                    <div className='col col-md-6 col-lg-3'>
                         <Card style={{ width: '18em' }}>
                             <Card.Img variant="top" className='w-100' src={sss} />
                             <Card.Body>
                                 <Card.Title>iPhone Xr/11 Curved</Card.Title>
                                 <p>999 Tk</p>
-                               
-                                    <Button variant="primary">
-                                        Add to Card
-                                    </Button>
+                                <Button variant="primary">
+                                    Add to Card
+                                </Button>
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className='col col-md-6 col-lg-4'>
+
+                    <div className='col col-md-6 col-lg-3'>
                         <Card style={{ width: '18em' }}>
                             <Card.Img variant="top" className='w-100' src={sss} />
                             <Card.Body>
                                 <Card.Title>iPhone Xr/11 Curved</Card.Title>
                                 <p>999 Tk</p>
-                               
-                                    <Button variant="primary">
-                                        Add to Card
-                                    </Button>
+
+                                <Button variant="primary">
+                                    Add to Card
+                                </Button>
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className='col col-md-6 col-lg-4'>
-                        <Card style={{ width: '18rem' }}>
+
+                    <div className='col col-md-6 col-lg-3'>
+                        <Card style={{ width: '18em' }}>
                             <Card.Img variant="top" className='w-100' src={sss} />
                             <Card.Body>
                                 <Card.Title>iPhone Xr/11 Curved</Card.Title>
                                 <p>999 Tk</p>
-                               
-                                    <Button variant="primary">
-                                        Add to Card
-                                    </Button>
+
+                                <Button variant="primary">
+                                    Add to Card
+                                </Button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+
+                    <div className='col col-md-6 col-lg-3'>
+                        <Card style={{ width: '18em' }}>
+                            <Card.Img variant="top" className='w-100' src={sss} />
+                            <Card.Body>
+                                <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                <p>999 Tk</p>
+
+                                <Button variant="primary">
+                                    Add to Card
+                                </Button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+
+                    <div className='col col-md-6 col-lg-3'>
+                        <Card className='border-0' style={{ width: '18em', }}>
+                            <Card.Img variant="top" className='w-' src={sss} />
+                            <Card.Body>
+                                <Card.Title>iPhone Xr/11 Curved</Card.Title>
+                                <p>999 Tk</p>
+                                <Button className='d-block mx-auto' variant="primary">
+                                    Add to Card
+                                </Button>
                             </Card.Body>
                         </Card>
                     </div>

@@ -5,10 +5,11 @@ import { ImLocation } from 'react-icons/im';
 import { BsFacebook, BsFillTelephoneFill, BsLinkedin, } from 'react-icons/bs';
 import zoomit from '../../../assets/Images/zoom.png'
 import './Footer.css'
+import { Icon } from '@iconify/react';
 
 const Footer = () => {
     return (
-        <div className=' text-center'>
+        <div className=''>
             <footer className='footer '>
                 <div className='container'>
                     <div className='row g-4'>
@@ -19,10 +20,11 @@ const Footer = () => {
                                 <div>
                                     <BsFacebook className='m-1 footer-icon' />
                                     <AiFillTwitterCircle className='m-1 footer-icon' />
-                                    <BsLinkedin className='m-1 footer-icon' />
+                                    <Icon icon="entypo-social:linkedin-with-circle" className='m-1 footer-icon' />
                                 </div>
                             </div>
                         </div>
+
                         <div className='col-lg-4 col-md-6 col-12 bg- g-4 '>
                             <h6>ORDER</h6>
                             <p className='mb-0'>My Account</p>
@@ -30,24 +32,21 @@ const Footer = () => {
                             <p className='mb-0'>Wishlist</p>
                             <p className='mb-0'>Shopping Cart</p>
                         </div>
+
                         <div className='col-lg-4 col-md-6 col-12 g-4'>
                             <h6> CONTACT US</h6>
                             <p className='mb-0'><HiMail className='footer-icon' /> iCareApple@gmail.com  </p>
                             <p className='mb-0'><BsFillTelephoneFill className='footer-icon' />  01722987867</p>
                             <p className='mb-0'><ImLocation className='footer-icon' /> Level-4, 34, Awal Centre, Banani, Dhaka</p>
                         </div>
-
-                    </div>
-                    <div>
-
                     </div>
                 </div>
-                {/* <hr /> */}
+
                 <div className='copy-write pt-2 mt-1'>
                     <div className='container'>
                         <div className='row'>
                             <div className='col col-md-6 col-lg-6 text-start'>
-                                <p>Copyright © 2021 iCare Apple . All Rights Reserved.</p>
+                                <p>Copyright &copy; 2021 iCare Apple . All Rights Reserved.</p>
                             </div>
                             <div className='col col-md-6 col-6 text-end '>
                                 <span className=''>DEVELOPED BY | </span>

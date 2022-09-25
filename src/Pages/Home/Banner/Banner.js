@@ -1,9 +1,23 @@
 import React from 'react';
 import banner from '../../../assets/Images/banner.png';
 import logo from '../../../assets/img/logo.png'
+import TsParticles from '../../TsParticles';
+
 import './Banner.css'
 
 const Banner = () => {
+    // const particlesInit = useCallback(async (engine) => {
+    //     console.log(engine);
+    //     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    //     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    //     // starting from v2 you can add only the features you need reducing the bundle size
+    //     await loadFull(engine);
+    // }, []);
+
+    // const particlesLoaded = useCallback(async (container) => {
+    //     await console.log(container);
+    // }, []);
+
     return (
         // <div className='pt-5 banner'>
         //     <div className=''>
@@ -44,8 +58,12 @@ const Banner = () => {
         //     </div>
         // </div>
 
+        
         <div>
             <div className="hero-area">
+
+            <TsParticles/>
+
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 offset-md-2 col-sm-12">
