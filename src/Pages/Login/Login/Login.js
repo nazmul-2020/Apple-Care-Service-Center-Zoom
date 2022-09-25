@@ -26,7 +26,7 @@ const Login = () => {
                             Log In
                         </Button>
                         <p className='pt-2  mb-0'>Don’t have an account?<Link to='/signup' className='text-primary font-weight-bold pe-auto ms-1 '> Sign Up Now !</Link></p>
-                        <p><button className='btn btn-link text-danger pe-auto text-decoration-none'>Reset Password?</button></p>
+                        <p className='mb-0'><button className='btn btn-link text-danger pe-auto text-decoration-none'>Reset Password?</button></p>
                     </Form>
                 </div>
             </div>

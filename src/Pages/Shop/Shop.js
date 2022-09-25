@@ -359,12 +359,12 @@ const Shop = () => {
                             clickable: true,
                         }}
                         modules={[FreeMode, Pagination, Navigation]}
-                        className="mySwiper py-4 my-4"
+                        className="mySwiper py-5 my-4"
                     >
                         <SwiperSlide>
                             <div width='100 mt-3'>
-                                <Card style={{ width: '200', }}>
-                                    <Card.Img variant="top" className='w-100' src={iPhon_X} />
+                                <Card style={{  }}>
+                                    <Card.Img variant="top" className='w' src={iPhon_X} />
                                     <Card.Body>
                                         <Card.Title>iPhone Xr/11 Curved</Card.Title>
                                         <p>999 Tk</p>

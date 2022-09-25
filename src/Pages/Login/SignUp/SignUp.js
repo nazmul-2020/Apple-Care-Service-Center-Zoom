@@ -28,7 +28,7 @@ const SignUp = () => {
                         <Button className='w-75 mx-auto d-block' variant="primary" type="submit">
                             Sign Up
                         </Button>
-                        <p className='pt-2 mb-0'>Already have an account?<Link to='/login' className='text-primary text-decoration-none font-weight-bold'> Please Login</Link></p>
+                        <p className='pt-2 mb-0 text-center'>Already have an account?<Link to='/login' className='text-primary text-decoration-none font-weight-bold'> Please Login</Link></p>
                     </Form>
                 </div>
             </div>
