@@ -47,7 +47,7 @@ const IPhone = () => {
 
                         <div className='col col-md-4 col-lg-2'>
                             <Link to='/iPhoneId' className='text-decoration-none text-dark'>
-                            <div className='border border-info shadow-lg text-center' >
+                            <div className='border border-info shadow-lg text-center rounded' >
                                 <img className='d-block mx-auto my-3' width='' height='180' src={iphone_13promax} alt="" />
                                 <p className='fw-bold'>iPhone 13 Pro</p>
                             </div>
@@ -55,67 +55,75 @@ const IPhone = () => {
                         </div>
                                                 
                         <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+                            <div className='border border-info shadow-lg text-center rounded' >
                                 <img className='d-block mx-auto my-3' width='' height='180' src={iphone12} alt="" />
                                 <p className='fw-bold'>iPhone 12 Pro</p>
                             </div>
                         </div>
-                        <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+
+                        <div className='col col-md-4 col-lg-2 '>
+                            <div className='border border-info shadow-lg text-center rounded' >
                                 <img className='d-block mx-auto my-3' width='' height='180' src={iPhone_X} alt="" />
                                 <p className='fw-bold'>iPhone X</p>
                             </div>
                         </div>
-                        <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+
+                        <div className='col col-md-4 col-lg-2 '>
+                            <div className='border border-info shadow-lg text-center rounded' >
                                 <img className='d-block mx-auto my-3' width='' height='180' src={iPhone_XIPhoneSErepair} alt="" />
                                 <p className='fw-bold'>iPhone-XI</p>
                             </div>
                         </div>
-                        <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+
+                        <div className='col col-md-4 col-lg-2 '>
+                            <div className='border border-info shadow-lg text-center rounded' >
                                 <img className='d-block mx-auto my-3' width='' height='180' src={IPhoneXS_MaxRepair} alt="aaaa" />
                                 <p className='fw-bold'>iPhone-X</p>
                             </div>
                         </div>
-                        <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+
+                        <div className='col col-md-4 col-lg-2 '>
+                            <div className='border border-info shadow-lg text-center rounded' >
                                 <img className='d-block mx-auto my-3' width='' height='180' src={IPhoneXS_MaxRepair} alt="" />
                                 <p className='fw-bold'>iPhone 13 Pro</p>
                             </div>
                         </div>
-                        <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+
+                        <div className='col col-md-4 col-lg-2 '>
+                            <div className='border border-info shadow-lg text-center rounded' >
                             <img className='d-block mx-auto my-3' width='' height='180' src={iphone12} alt="" />
                                 <p className='fw-bold'>iPhone 13 Pro</p>
                             </div>
                         </div>
-                        <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+
+                        <div className='col col-md-4 col-lg-2 '>
+                            <div className='border border-info shadow-lg text-center rounded' >
                             <img className='d-block mx-auto my-3' width='' height='180' src={iphone12} alt="" />                                
                                 <p className='fw-bold'>iPhone 13 Pro</p>
                             </div>
                         </div>
+
+                        <div className='col col-md-4 col-lg-2 '>
+                            <div className='border border-info shadow-lg text-center rounded' >
+                            <img className='d-block mx-auto my-3' width='' height='180' src={iphone12} alt="" />
+                                <p className='fw-bold'>iPhone 13 Pro</p>
+                            </div>
+                        </div>
+
                         <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+                            <div className='border border-info shadow-lg text-center rounded' >
                             <img className='d-block mx-auto my-3' width='' height='180' src={iphone12} alt="" />
                                 <p className='fw-bold'>iPhone 13 Pro</p>
                             </div>
                         </div>
                         <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+                            <div className='border border-info shadow-lg text-center rounded' >
                             <img className='d-block mx-auto my-3' width='' height='180' src={iphone12} alt="" />
                                 <p className='fw-bold'>iPhone 13 Pro</p>
                             </div>
                         </div>
                         <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
-                            <img className='d-block mx-auto my-3' width='' height='180' src={iphone12} alt="" />
-                                <p className='fw-bold'>iPhone 13 Pro</p>
-                            </div>
-                        </div>
-                        <div className='col col-md-4 col-lg-2'>
-                            <div className='border border-info shadow-lg text-center' >
+                            <div className='border border-info shadow-lg text-center rounded' >
                             <img className='d-block mx-auto my-3' width='' height='180' src={iphone12} alt="" />
                                 <p className='fw-bold'>iPhone 13 Pro</p>
                             </div>

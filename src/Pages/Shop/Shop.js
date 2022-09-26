@@ -86,7 +86,7 @@ const Shop = () => {
                         <div class="row mt-4 g-4 w-75 mx-auto">
                             <div class="col-12 col-md-4 col-lg-3 ">
                                 <div>
-                                    <select className="form-select   p-2 rounded-0" aria-label="Default select example">
+                                    <select className="form-select   p-2 " aria-label="Default select example">
                                         <option className='p-1' value="1">MacBook Pro</option>
                                         <option value="2">iMac</option>
                                         <option value="3">Mac min</option>
@@ -100,7 +100,7 @@ const Shop = () => {
 
                             <div class="col-12 col-md-4 col-lg-3 ">
                                 <div>
-                                    <select className="form-select  p-2 rounded-0" aria-label="Default select example">
+                                    <select className="form-select  p-2 " aria-label="Default select example">
                                         <option className='p-1' value="1">MacBook Pro</option>
                                         <option value="2">iMac</option>
                                         <option value="3">Mac min</option>
@@ -114,7 +114,7 @@ const Shop = () => {
 
                             <div class="col-12 col-md-4 col-lg-3 ">
                                 <div>
-                                    <select className="form-select  border- p-2 rounded-0" aria-label="Default select example">
+                                    <select className="form-select  border- p-2 " aria-label="Default select example">
                                         <option className='p-1' value="1">MacBook Pro</option>
                                         <option value="2">iMac</option>
                                         <option value="3">Mac min</option>
@@ -128,7 +128,7 @@ const Shop = () => {
 
                             <div class="col-12 col-md-4 col-lg-3 bg-inf ">
                                 <div>
-                                    <button className='btn btn-primary rounded-0 d-block mx-auto'>Find product</button>
+                                    <button className='btn btn-primary  d-block mx-auto'>Find product</button>
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ const Shop = () => {
             <div className='container mt-3'>
                 <div className='d-flex align-items-center justify-content-between'>
                     <div className=''>
-                        <h3>What We Offer</h3>
+                        <h3>What <span className='text-primary'>We Offer</span></h3>
                     </div>
 
                     <div>
@@ -150,145 +150,145 @@ const Shop = () => {
 
                 <div className='row g-1'>
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info'>
                             <img src={iphone_xr} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info'>
                             <img src={protector} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker PowerLine Select USB-C 2.0 Cable - 3ft</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button disabled className='btn btn-sm btn-outline-primary rounded-0 my-1 '>Add To Cart</button>
+                                <button disabled className='btn btn-sm btn-outline-primary my-1 '>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphone_xr11} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker Soundcore Q10i Wireless Headphone</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphoneHD} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker Soundcore Life Note 3i True Earbuds</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphone_x} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker Soundcore Wakey Bluetooth Speaker</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphone_xr} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphone_r11} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker Soundcore Life P2i True Wireless Earbuds</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphone_xr} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphone_11} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker Soundcore Life P2i True Wireless Earbuds</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphone_xr} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphone_xr} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
 
                     <div className='col-12 col-md-4 col-lg-2'>
-                        <div className='my-2 p-1 category-card border-info rounded-0'>
+                        <div className='my-2 p-1 category-card border-info '>
                             <img src={iphone_xr} alt="" />
                             <span>10%</span>
                             <div className='text-center mt-2'>
                                 <p className='m-0'>Anker PowerLine USB-C to USB-C 2.0-3ft</p>
                                 <p className='m-0 mt-1'>200 Tk</p>
-                                <button className='btn btn-sm btn-outline-primary rounded-0 my-1'>Add To Cart</button>
+                                <button className='btn btn-sm btn-outline-primary  my-1'>Add To Cart</button>
                             </div>
                         </div>
                     </div>
@@ -296,7 +296,7 @@ const Shop = () => {
 
                 <div className='row mt-3'>
                     <div className='col-12 col-md-6 col-lg-3 '>
-                        <div className='d-flex align-items-center justify-content-between ggg p-3'>
+                        <div className='d-flex align-items-center justify-content-between service-card p-3'>
                             <div>
                                 <img className='border rounded-circle border-white p-1' src={shipping} alt="" />
                             </div>
@@ -307,7 +307,7 @@ const Shop = () => {
                     </div>
 
                     <div className='col-12 col-md-6 col-lg-3 '>
-                        <div className='d-flex align-items-center justify-content-between ggg p-3'>
+                        <div className='d-flex align-items-center justify-content-between service-card p-3'>
                             <div>
                                 <img className='border rounded-circle border-white p-1' src={Quick} alt="" />
                             </div>
@@ -318,7 +318,7 @@ const Shop = () => {
                     </div>
 
                     <div className='col-12 col-md-6 col-lg-3 '>
-                        <div className='d-flex align-items-center justify-content-between ggg p-3'>
+                        <div className='d-flex align-items-center justify-content-between service-card p-3'>
                             <div>
                                 <img className='border rounded-circle border-white p-1' src={QuickShipping} alt="" />
                             </div>
@@ -329,7 +329,7 @@ const Shop = () => {
                     </div>
 
                     <div className='col-12 col-md-6 col-lg-3 '>
-                        <div className='d-flex align-items-center justify-content-between ggg p-3'>
+                        <div className='d-flex align-items-center justify-content-between service-card p-3'>
                             <div>
                                 <img className='border rounded-circle border-white p-1' src={shipping} alt="" />
                             </div>

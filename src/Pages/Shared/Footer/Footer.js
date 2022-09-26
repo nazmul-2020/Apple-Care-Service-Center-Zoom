@@ -16,11 +16,11 @@ const Footer = () => {
                         <div className='col-lg-4 col-md-6 col-12  g-4'>
                             <div className=''>
                                 <h5>About Us</h5>
-                                <p>iCare Apple BD is the leading Apple service center in Bangladesh. We gained our reputation in this service by providing the best solution.</p>
-                                <div>
-                                    <BsFacebook className='m-1 footer-icon' />
-                                    <AiFillTwitterCircle className='m-1 footer-icon' />
-                                    <Icon icon="entypo-social:linkedin-with-circle" className='m-1 footer-icon' />
+                                <p className=''>iCare Apple BD is the leading Apple service center in Bangladesh. We gained our reputation in this service by providing the best solution.</p>
+                                <div className='mb-1'>
+                                    <BsFacebook className=' footer-icon' />
+                                    <AiFillTwitterCircle className='footerIcon' />
+                                    <Icon icon="entypo-social:linkedin-with-circle" className='footerIcon' />
                                 </div>
                             </div>
                         </div>

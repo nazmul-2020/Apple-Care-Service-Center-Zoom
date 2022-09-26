@@ -22,7 +22,7 @@ const ContactUs = () => {
                     <div className='overlay h-100'>
                         <div className='row'>
                             <div className='col col-md-6 col-lg-6 '>
-                                <div className='border border-danger border-2 m-3 bg-white'>
+                                <div className='border border-danger border-2 m-3 bg-white rounded'>
                                     <div className=' m-3 '>
                                         <label>Name <span className='text-danger'>*</span></label>
                                         <input className=' p-2  w-100' required placeholder="Name" type="name" name="" id="" />
@@ -32,14 +32,14 @@ const ContactUs = () => {
                                         <input className=' p-2  w-100' required placeholder="Subject" type="text" name="" id="" />
                                         <label className='mt-3'>Message <span className='text-danger'>*</span></label>
                                         <textarea className=" w-100  messageField " required placeholder="Message"></textarea>
-                                        <button type="button" className="btn btn-info d-block mx-auto mt-3">Send Message</button>
+                                        <button type="button" className="btn btn-primary d-block mx-auto mt-3">Send Message</button>
                                     </div>
                                 </div>
                             </div>
                             <div className='col col-md-6 col-lg-6'>
-                                <div className="mapouter w-100 h-100">
-                                    <div className="gmap_canvas h-100 d-flex align-items-center justify-content-center m-3 ">
-                                        <iframe width="100%" height="315" id="gmap_canvas" src="https://maps.google.com/maps?q=Bosila,Mohamudpur,Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
+                                <div className="mapouter w-100 h-100  ">
+                                    <div className="gmap_canvas h-100 d-flex align-items-center justify-content-center m-3">
+                                        <iframe className='rounded' width="100%" height="315" id="gmap_canvas" src="https://maps.google.com/maps?q=Bosila,Mohamudpur,Bangladesh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
                                         </iframe>
                                         {/* <a href="https://2piratebay.org"></a> */}
                                     </div>

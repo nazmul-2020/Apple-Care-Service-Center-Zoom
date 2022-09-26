@@ -8,7 +8,7 @@ const Login = () => {
     return (
         <div className=''>
             <div className='d-flex mt-5'>
-                <div className='m-5 mx-auto p-4 shadow-lg form-container '>
+                <div className='m-5 mx-auto p-4 shadow-lg form-container rounded'>
                 <AiOutlineUser className='login-icon' />
                     <h3 className='text-center text-dark'> Please Log In</h3>
                     <Form className=' '>

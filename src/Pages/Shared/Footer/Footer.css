@@ -4,7 +4,13 @@
 }
 
 .footer-icon{
-    font-size: 25px;
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+.footerIcon{
+    font-size: 24px;
+    margin-right: 6px;
 }
 
 .copy-write{

@@ -14,11 +14,13 @@ const IPad = () => {
                     </div>
                 </div>
             </div>
+
             <div className="container">
                 <div className='mt-5 text-center'>
                     <h3>iPad Repair Service</h3>
                     <p>Choose the iPad model you need to repair</p>
                 </div>
+                
                 <div className='row g-3'>
                     <div className='col col-md-4 col-lg-2'>
                         <Link className='text-decoration-none text-dark' to='/iPadDetails'>

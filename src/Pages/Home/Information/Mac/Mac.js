@@ -72,7 +72,6 @@ const Mac = () => {
                             </div>
                         </Link>
                     </div>
-
                 </div>
             </div>
         </div>

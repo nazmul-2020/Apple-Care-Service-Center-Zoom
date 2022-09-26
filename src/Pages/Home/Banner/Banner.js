@@ -62,8 +62,7 @@ const Banner = () => {
         <div>
             <div className="hero-area">
 
-            <TsParticles/>
-
+            {/* <TsParticles/> */}
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 offset-md-2 col-sm-12">

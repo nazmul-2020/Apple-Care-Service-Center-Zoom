@@ -3,7 +3,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 50vh;
 }
 
 .category-card{
@@ -27,12 +27,13 @@
     top: -1px;
     right: -1px;
     border-bottom-left-radius: 5px;
-    border: px solid red;
+    /* border: 5px solid red; */
 
 }
 
-.ggg{
+.service-card{
     background-color: #D9D9D9;
+    border-radius: 5px;
 }
 
 .accessories{
