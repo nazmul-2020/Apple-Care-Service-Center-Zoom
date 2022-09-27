@@ -48,6 +48,7 @@ img{
 */
 .header-area {
     background: #e6e6e6;
+    z-index: 99;
   }
   .navbar-toggler {
       padding: .25rem .60rem;

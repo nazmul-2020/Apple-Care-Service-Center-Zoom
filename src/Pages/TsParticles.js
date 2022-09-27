@@ -22,7 +22,7 @@ const TsParticles = () => {
             <Particles
                 id="tsparticles"
                 init={particlesInit}
-                // loaded={particlesLoaded}
+                loaded={particlesLoaded}
                 options={{
                     background: {
                         color: {
