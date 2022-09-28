@@ -57,7 +57,7 @@ const Information = () => {
                                 <div className="col col-md-3 col-lg-2">
                                     <div className="card">
                                         <div className="card-body text-center aa">
-                                            <Link to='/iMac' className='text-decoration-none'>
+                                            <Link to='/macBook' className='text-decoration-none'>
                                                 <img width='70' height='70' className='d-block mx-auto' src={monitor} alt="" />
                                                 <small className='fw-bold text-dark'>iMac</small>
                                             </Link>

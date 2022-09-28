@@ -4,6 +4,7 @@ import red_iphone_13_pro from '../../../../../assets/Images/iPhoneRepair/one/red
 import iphone_13_promax_leather from '../../../../../assets/Images/iPhoneRepair/one/iphone-13-pro-max-leather-cas.webp';
 import iphone13_screen_protector from '../../../../../assets/Images/iPhoneRepair/one/iphone-13-screen-protector.webp';
 import { Link } from 'react-router-dom';
+import { BsFillTelephoneFill } from 'react-icons/bs';
 // import './IPhoneBatteryId.css'
 
 
@@ -35,9 +36,12 @@ const IPhoneBatteryId = () => {
 
                                     <div>
                                         <p className='mt-3'><span className='fw-bold'>Price :</span> 120</p>
-                                        <button className='btn border-0 shadow btn-outline-dark'>Add To Cart</button>
+                                        
+                                        <div className='d-flex justify-content-between'>
+                                            <button className='btn border-0 shadow btn-outline-dark'>Add To Cart</button>
+                                            <button className='btn border-0 shadow btn-primary py-2'><BsFillTelephoneFill className='me-1' /> +880-17011111111</button>
+                                        </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -46,17 +50,17 @@ const IPhoneBatteryId = () => {
                 <hr />
                 <div className='container'>
                     <div className='row mt-5'>
-                        <div className="col col-md-6 col-lg-6 ">
+                        <div className="col col-md-6 col-lg-6 h-100">
 
-                            <div className=''>
-                                <div className="nav nav-tabs border-0" id="nav-tab" role="tablist">
-                                    <button className={({ isActive }) => (isActive ? "active-link" : "link")} className="nav-link active border-dark rounded-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="" aria-controls="nav-home" aria-selected="true">Description</button>
+                            <div className='h-100'>
+                                <div className="nav nav-tabs border-0 rounded" id="nav-tab" role="tablist">
+                                    <button className={({ isActive }) => (isActive ? "active-link" : "link")} class="nav-link active border-dark rounded-0" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="" aria-controls="nav-home" aria-selected="true">Description</button>
                                     <button className={({ isActive }) => (isActive ? "active-link" : "link")}
-                                        className="nav-link border-dark rounded-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Warranty</button>
+                                        class="nav-link border-dark rounded-0" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Warranty</button>
                                 </div>
 
 
-                                <div className="tab-content border pt-5 ps-3 border-dark" id="nav-tabContent">
+                                <div className="tab-contentF border pt-5 ps-3 border-dark" id="nav-tabContent">
                                     <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                         <h3>iPhone 13 Pro Max Original Battery</h3>
                                         <p className='mt-3 mb-0 fw-bold fs-5 text-decoration-underline'>Battery Specifications:</p>
@@ -76,12 +80,12 @@ const IPhoneBatteryId = () => {
                             </div>
                         </div>
 
-                        <div className="col col-md-6 col-lg-6 ">
+                        <div className="col col-md-6 col-lg-6">
                             {/* <div>
                             <p>The iPhones have always provided their users with optimal specifications that perform up to expectation. One of the key features of the latest iPhone 13 Pro Max is the battery. The iPhone 13 Pro Max’s battery sits perfectly with the phone and gives its users the perfect experience. The iPhone 12 Pro Max offers a non-removable Lithium-Polymer battery that provides 4352 mAh. It supports fast wired and wireless charging which provides a 55% charge in 30 minutes. Although the iPhone provides an excellent battery, it will drain in time with wear and tear as the user uses it. They may face some issues with the phone’s battery.</p>
                         </div> */}
                             <div className='h-100'>
-                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dIeCbn6_LNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe className='rounded' width="100%" height="100%" src="https://www.youtube.com/embed/dIeCbn6_LNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
 

@@ -13,6 +13,7 @@ import IPhoneBatteryId from "./Pages/Home/Information/IPhone/IPhoneBattery/IPhon
 import IPhoneId from "./Pages/Home/Information/IPhone/IPhoneId/IPhoneId";
 import IPhoneUnlock from "./Pages/Home/Information/IPhoneUnlock";
 import IMac22 from "./Pages/Home/Information/Mac/IMac22";
+import MacBookProId from "./Pages/Home/Information/Mac/IMacBookPro/MacBookProId/MacBookProId";
 // import IMac22 from "./Pages/Home/Information/Mac/IMacBookPro/iMac22";
 // import IMacBookPro from "./Pages/Home/Information/Mac/IMacBookPro/IMacBookPro";
 
@@ -42,6 +43,7 @@ function App() {
         <Route path="/macBook" element={<MacBook />}></Route>
         <Route path="/macBookPro" element={<MacBookPro />}></Route>
         <Route path="/macBookProDetails" element={<MacBookProDetails />}></Route>
+        <Route path="/macBookProId" element={<MacBookProId />}></Route>
         <Route path="/iPhone" element={<IPhone />}></Route>
         <Route path="/iphoneId" element={<IPhoneId />}></Route>
         <Route path="/iPhoneBattery" element={<IPhoneBattery />}></Route>

@@ -8,7 +8,7 @@ const MacBookPro = () => {
                 <div className='overlay d-flex justify-content-center align-items-center h-100'>
                     <div>
                         <h2 className='text-white'>MacBook</h2>
-                        <p className='text-center  fw-bold'><Link className='text-decoration-none text-white ' to='/'>Back Home</Link></p>
+                        <p className='text-center  fw-bold'><Link className='text-decoration-none text-white ' to='/macBookProDetails'>Back Home</Link></p>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ const MacBookPro = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/macBookProDetails'>
                             <div className="mac-Ca d-flex align-items-center justify-content-center watch-card">
                                 <div>
                                     <h5 className="">MacBook Pro</h5>
@@ -44,7 +44,7 @@ const MacBookPro = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/macBookProDetails'>
                             <div className="mac-Ca d-flex align-items-center justify-content-center watch-card">
                                 <div>
                                     <h5 className="">MacBook Pro</h5>
@@ -55,7 +55,7 @@ const MacBookPro = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/macBookProDetails'>
                             <div className="mac-Ca d-flex align-items-center justify-content-center watch-card">
                                 <div>
                                     <h5 className="">MacBook Pro</h5>

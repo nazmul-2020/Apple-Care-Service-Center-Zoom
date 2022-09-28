@@ -8,7 +8,7 @@ const MacBook = () => {
                 <div className='overlay d-flex justify-content-center align-items-center h-100'>
                     <div>
                         <h2 className='text-white'>MacBook</h2>
-                        <p className='text-center  fw-bold'><Link className='text-decoration-none text-white ' to='/'>Back Home</Link></p>
+                        <p className='text-center  fw-bold'><Link className='text-decoration-none text-white ' to='/macBookPro'>Back Home</Link></p>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ const MacBook = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/iMac/iMac22'>
+                        <Link className='text-decoration-none text-dark' to='/macBookPro'>
                             <div className="mac-Ca d-flex align-items-center justify-content-center watch-card">
                                 <h5 className="">MacBook Air</h5>
                             </div>
@@ -38,7 +38,7 @@ const MacBook = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/macBookPro'>
                             <div className="mac-Ca d-flex align-items-center justify-content-center watch-card">
                                 <h5 className="">Macbook </h5>
                             </div>
@@ -46,7 +46,7 @@ const MacBook = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/macBookPro'>
                             <div className="mac-Ca d-flex align-items-center justify-content-center watch-card">
                                 <h5 className="">Mac Mini</h5>
                             </div>
@@ -54,7 +54,7 @@ const MacBook = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/macBookPro'>
                             <div className="mac-Ca d-flex align-items-center justify-content-center watch-card">
                                 <h5 className="">iMac</h5>
                             </div>
@@ -62,7 +62,7 @@ const MacBook = () => {
                     </div>
 
                     <div className='col col-md-3 col-lg-2'>
-                        <Link className='text-decoration-none text-dark' to='/'>
+                        <Link className='text-decoration-none text-dark' to='/macBookPro'>
                             <div className="mac-Ca d-flex align-items-center justify-content-center watch-card">
                                 <h5 className="">Macbook Pro</h5>
                             </div>

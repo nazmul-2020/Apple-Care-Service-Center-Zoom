@@ -1,4 +1,5 @@
 import React from 'react';
+import { BsFillTelephoneFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import ss from '../../../../../assets/Images/Watch/icons8-charge-empty-battery-96.png'
 import './WatchBattery.css'
@@ -31,7 +32,11 @@ const WatchBattery = () => {
 
                                 <div>
                                     <p className='mt-3'><span className='fw-bold'>Price :</span> 120</p>
-                                    <button className='btn border-0 shadow btn-outline-dark'>Add To Cart</button>
+
+                                    <div className='d-flex justify-content-between'>
+                                            <button className='btn border-0 shadow btn-outline-dark'>Add To Cart</button>
+                                            <button className='btn border-0 shadow btn-primary py-2'><BsFillTelephoneFill className='me-1' /> +880-17011111111</button>
+                                        </div>
                                 </div>
 
                             </div>
@@ -77,8 +82,8 @@ const WatchBattery = () => {
                         {/* <div>
                             <p>The iPhones have always provided their users with optimal specifications that perform up to expectation. One of the key features of the latest iPhone 13 Pro Max is the battery. The iPhone 13 Pro Max’s battery sits perfectly with the phone and gives its users the perfect experience. The iPhone 12 Pro Max offers a non-removable Lithium-Polymer battery that provides 4352 mAh. It supports fast wired and wireless charging which provides a 55% charge in 30 minutes. Although the iPhone provides an excellent battery, it will drain in time with wear and tear as the user uses it. They may face some issues with the phone’s battery.</p>
                         </div> */}
-                        <div className='h-100'>
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/AOc16nL9CSM?start=76" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        <div className='h-100' height='100%'>
+                            <iframe className='rounded' width="100%" height="100%" src="https://www.youtube.com/embed/AOc16nL9CSM?start=76" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                             </iframe>
                         </div>
                     </div>
