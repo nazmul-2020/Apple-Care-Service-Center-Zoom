@@ -1,13 +1,15 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/img/logo.png'
+import Liquid from '../../../assets/img/liquid.jpg'
+
 import './Header.css'
 
 const Header = () => {
     return (
         <div>
-            {/* <Navbar bg="light fixed-top" expand="lg">
+            {/* <Navbar bg="light" expand="lg">
                 <Container>
 
                     <Navbar.Brand className='fw-bold' href="/">
@@ -23,17 +25,64 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto fw-bold">
+                            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                                {/* <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item> */}
+                                {/* <div className="search-result searchServiceResult" style={{ background: "rgba(255, 255, 255, 0.100)" }}
+                                            >
+                                                <ul className="item-list serviceList">
+                                                    <li><Link to='/iPhone'>
+                                                        <img className='rounded' src={Liquid} alt="" />
+                                                        <p>iPhone Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/iPad'>
+                                                        <img src={Liquid} alt="" />
+                                                        <p>iPad Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/macBook'>
+                                                        <img src={Liquid} alt="" />
+                                                        <p>iMac Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/watch'>
+                                                        <img src={Liquid} alt="" />
+                                                        <p>Watch Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'>
+                                                        <img src={Liquid} alt="" />
+                                                        <p>iPhone Unlock 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'> */}
+                                                        {/* <img src={Battery} alt="" /> */}
+                                                        {/* <p>Battery Replacement 2</p> */}
+                                                    {/* </Link></li> */}
+
+                                                    {/* <li><Link to='/'> */}
+                                                        {/* <img src={rear} alt="" />
+                                                        <p>Rear Case Replacement2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'> */}
+                                                        {/* <img src={Liquid} alt="" /> */}
+                                                        {/* <p>Liquid Damage 2</p>
+                                                    </Link></li>
+                                                </ul>
+                                            </div>
+                            </NavDropdown>
                             <Nav.Link href="/aboutUs">About Us</Nav.Link>
                             <Nav.Link href="/contact">Contact Us</Nav.Link>
                             <Nav.Link href="#home">Carts</Nav.Link>
                             <Nav.Link href="/blog">Blog</Nav.Link>
                             <Nav.Link href="#link" className=''>Log In</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
+                        </Nav> */}
+                    {/* </Navbar.Collapse>
                 </Container>
-            </Navbar> */}
+            </Navbar>  */}
 
-            <div className="header-area">
+            <div className="header-area sticky-top">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

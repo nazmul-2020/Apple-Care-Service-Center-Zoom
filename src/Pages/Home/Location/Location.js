@@ -7,7 +7,7 @@ const Location = () => {
             <div className='container'>
                 <h3 className='text-center mb-4'>Our Office Location On Google Map</h3>
                 <div className="row g-4">
-                    <div className='col col-md-6 col-lg-6 '>
+                    <div className='col-12 col-md-6 col-lg-6 '>
                         <div>
                             <div className="mapouter w-100">
                                 <div className="gmap_canvas ">
@@ -19,7 +19,7 @@ const Location = () => {
                         </div>
                     </div>
                 
-                    <div className='col col-md-6 col-lg-6 '>
+                    <div className='col-12 col-md-6 col-lg-6 '>
                         <div className='w-100'>
                            <img className='w-100'height="315" src={shop} alt="" />
                         </div>

@@ -1,11 +1,23 @@
 import React from 'react';
 import banner from '../../../assets/Images/banner.png';
-import logo from '../../../assets/img/logo.png'
-import TsParticles from '../../TsParticles';
+import iphone from '../../../assets/img/iphone.jpg'
+import ipad from '../../../assets/img/ipad.jpg'
+import imac from '../../../assets/img/imac.jpg'
+import Watch from '../../../assets/img/watch.jpg'
+import Unlock from '../../../assets/img/iphone-lock.jpg'
+import Battery from '../../../assets/img/battery-replacement.jpg'
+import rear from '../../../assets/img/rear-case.jpg'
+import Liquid from '../../../assets/img/liquid.jpg'
 
 import './Banner.css'
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
+
+    const [show, setShow] = useState(false);
+    // const [showa, setShowa] = useState(false);
+
 
     return (
         // <div className='pt-5 banner'>
@@ -47,22 +59,23 @@ const Banner = () => {
         //     </div>
         // </div>
 
-        
+
         <div>
             <div className="hero-area">
-            {/* <TsParticles/> */}
+                {/* <TsParticles/> */}
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 offset-md-2 col-sm-12">
                             <div className="search-box-container text-center">
                                 <ul className="nav">
-                                    <li className="nav-item"><a className="active" data-toggle="tab" href="#service">SERVICE</a></li>
-                                    <li className="nav-item"><a data-toggle="tab" href="#shop">SHOP</a></li>
+                                    <li onClick={() => setShow(!show)} className="nav-item fw-bold" ><button className='btn fw-bold border-0'>SERVICE</button></li>
+                                    {/* <li  onClick={() => setShowa(!showa)} className="nav-item"><button className='btn'>SHOP</button></li> */}
                                 </ul>
 
                                 <div className="tab-content">
                                     <div id="service" className="container tab-pane active">
-                                        <div className="searchBox">
+
+                                        {/* <div className="searchBox">
                                             <div className="input-group form-label-group">
                                                 <input type="text" id="searchService" className="form-control"
                                                     placeholder="Search By Service Type" onkeyUp="showResult(this.value)"
@@ -72,94 +85,117 @@ const Banner = () => {
                                                     <button className="btn" type="button"><i className="bi bi-search"></i></button>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div className="search-result searchServiceResult" style={{ display: "none" }}>
-                                            <ul className="item-list serviceList">
-                                                <li>
-                                                    {/* <img src="img/iphone.jpg" alt=""> */}
-                                                    <p>iPhone Repair</p>
-                                                </li>
-                                                <li>
-                                                    {/* <img src="img/ipad.jpg" alt=""> */}
-                                                    <p>iPad Repair</p>
-                                                </li>
-                                                <li>
-                                                    {/* <img src="img/imac.jpg" alt=""> */}
-                                                    <p>iMac Repair</p>
-                                                </li>
-                                                <li>
-                                                    {/* <img src="img/watch.jpg" alt=""> */}
-                                                    <p>Watch Repair</p>
-                                                </li>
-                                                <li>
-                                                    {/* <img src="img/iphone-lock.jpg" alt=""> */}
-                                                    <p>iPhone Unlock</p>
-                                                </li>
-                                                <li>
-                                                    {/* <img src="img/battery-replacement.jpg" alt=""> */}
-                                                    <p>Battery Replacement</p>
-                                                </li>
-                                                <li>
-                                                    {/* <img src="img/rear-case.jpg" alt=""> */}
-                                                    <p>Rear Case Replacement</p>
-                                                </li>
-                                                <li>
-                                                    {/* <img src="img/liquid.jpg" alt=""> */}
-                                                    <p>Liquid Damage</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    {/* <!-- tab pane close --> */}
-                                    <div id="shop" className="container tab-pane fade">
-                                        <div className="searchBox">
-                                            <div className="input-group form-label-group">
-                                                <input type="text" id="searchShop" className="form-control"
-                                                    placeholder="Search By Categories" onkeyUp="showResult(this.value)"
-                                                    required />
-                                                <label for="searchShop">Products</label>
-                                                <div className="input-group-append">
-                                                    <button className="btn" type="button"><i className="bi bi-search"></i></button>
-                                                </div>
+                                        </div> */}
+                                        {show ?
+                                            <div className="search-result searchServiceResult" style={{ background: "rgba(255, 255, 255, 0.500)" }}
+                                            >
+                                                <ul className="item-list serviceList">
+                                                    <li><Link to='/iPhone'>
+                                                        <img className='rounded' src={iphone} alt="" />
+                                                        <p>iPhone Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/iPad'>
+                                                        <img src={ipad} alt="" />
+                                                        <p>iPad Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/macBook'>
+                                                        <img src={imac} alt="" />
+                                                        <p>iMac Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/watch'>
+                                                        <img src={Watch} alt="" />
+                                                        <p>Watch Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'>
+                                                        <img src={Unlock} alt="" />
+                                                        <p>iPhone Unlock 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'>
+                                                        <img src={Battery} alt="" />
+                                                        <p>Battery Replacement 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'>
+                                                        <img src={rear} alt="" />
+                                                        <p>Rear Case Replacement2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'>
+                                                        <img src={Liquid} alt="" />
+                                                        <p>Liquid Damage 2</p>
+                                                    </Link></li>
+                                                </ul>
                                             </div>
-                                        </div>
-                                        <div className="search-result searchShopResult" style={{ display: "none" }}>
+                                            : null}
+                                    </div>
+
+
+                                    {/* <!-- tab pane close --> */}
+
+                                    <div id="shop" className="container tab-pane fade">
+                                        {/* <div className="searchBox">
+                                         <div className="input-group form-label-group">
+                                             <input type="text" id="searchShop" className="form-control"
+                                                 placeholder="Search By Categories" onkeyUp="showResult(this.value)"
+                                                 required />
+                                             <label for="searchShop">Products</label>
+                                             <div className="input-group-append">
+                                                 <button className="btn" type="button"><i className="bi bi-search"></i></button>
+                                             </div>
+                                         </div>
+                                     </div> */}
+
+                                        {/* {
+                                        showa? */}
+                                        <div className="search-result searchShopResult" style={{ display: "" }}>
                                             <ul className="item-list shopList">
                                                 <li>
-                                                    {/* <img src="img/iphone.jpg" alt=""> */}
+                                                    <img src={iphone} alt="" />
                                                     <p>iPhone Repair 2</p>
                                                 </li>
                                                 <li>
-                                                    {/* <img src="img/ipad.jpg" alt=""> */}
+                                                    <img src={iphone} alt="" />
+
                                                     <p>iPad Repair 2</p>
                                                 </li>
                                                 <li>
-                                                    {/* <img src="img/imac.jpg" alt=""> */}
+                                                    <img src={iphone} alt="" />
+
                                                     <p>iMac Repair 2</p>
                                                 </li>
                                                 <li>
-                                                    {/* <img src="img/watch.jpg" alt=""> */}
+                                                    <img src={iphone} alt="" />
+
                                                     <p>Watch Repair 2</p>
                                                 </li>
                                                 <li>
-                                                    {/* <img src="img/iphone-lock.jpg" alt=""> */}
+                                                    <img src={iphone} alt="" />
                                                     <p>iPhone Unlock 2</p>
                                                 </li>
                                                 <li>
-                                                    {/* <img src="img/battery-replacement.jpg" alt=""> */}
+                                                    <img src={iphone} alt="" />
                                                     <p>Battery Replacement 2</p>
                                                 </li>
                                                 <li>
-                                                    {/* <img src="img/rear-case.jpg" alt=""> */}
+                                                    <img src={iphone} alt="" />
                                                     <p>Rear Case Replacement2</p>
                                                 </li>
                                                 <li>
-                                                    {/* <img src="img/liquid.jpg" alt=""> */}
+                                                    <img src={iphone} alt="" />
                                                     <p>Liquid Damage 2</p>
                                                 </li>
                                             </ul>
                                         </div>
+                                        {/* :null
+                                    } */}
+
                                     </div>
+
                                     {/* <!-- tab pane close --> */}
                                 </div>
                             </div>
@@ -172,7 +208,6 @@ const Banner = () => {
             </div>
             {/* <!-- Header area close --> */}
         </div>
-
 
 
     );

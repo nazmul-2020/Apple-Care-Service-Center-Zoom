@@ -27,7 +27,7 @@ const Home = () => {
             <Discounted/>
             <ProfessionalRepair />
             <ScheduleRepair />
-            <Videos/> 
+            {/* <Videos/>  */}
             <IcareApple/>
             <Location/> 
             <OurService/>

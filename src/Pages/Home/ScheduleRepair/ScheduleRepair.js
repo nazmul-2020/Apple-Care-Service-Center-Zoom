@@ -7,7 +7,7 @@ const ScheduleRepair = () => {
             <div className='container'>
                 <h2 className='mb-4 text-center'>Schedule your iPhone repair</h2>
                 <div className='row g'>
-                    <div className='col col-md-6 col-lg-6'>
+                    <div className='col-12 col-md-6 col-lg-6'>
                         {/* <h2 className='mb-4 text-center'>Schedule your iPhone repair</h2> */}
                   
                             <div className="accordion" id="accordionExample">
@@ -56,7 +56,7 @@ const ScheduleRepair = () => {
                             </div>
                         </div>
                    
-                    <div className='col col-md-6 col-lg-6  '>
+                    <div className='col-12 col-md-6 col-lg-6  '>
                         <img className='w-100' src={repair} alt="" />
                     </div>
                 </div>

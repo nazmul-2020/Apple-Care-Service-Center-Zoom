@@ -6,12 +6,12 @@ const Videos = () => {
         <div className=' my-4'>
             <div className='container my-4'>
                 <div className='row g-4'>
-                    <div className='col col-md-12 col-lg-6 '>
+                    <div className='col-12 col-md-6 col-lg-6 '>
                         <div>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/p9hA59nn7uQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
                     </div>
-                    <div className='col col-md-6 col-lg-6 '>
+                    <div className='col-12 col-md-6 col-lg-6 '>
                         <div>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/p9hA59nn7uQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>

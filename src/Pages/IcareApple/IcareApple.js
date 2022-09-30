@@ -24,13 +24,13 @@ const IcareApple = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col col-md-6 col-lg-4">
+                    <div className="col-12 col-md-6 col-lg-4">
                         <div>
                             <img className='w-100' src={iPhone_X} alt="" />
                         </div>
                     </div>
-                    <div className="col col-md-6 col-lg-4">
-                        <div className='text-end'>
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className=''>
                             <div>
                                 <h5>Advanced Service Lab</h5>
                                 <p>To fix complicated issues we are not only relying on expert technicians but also on advanced servicing labs. In Bangladesh, no one has a better servicing lab than us.</p>

@@ -1,11 +1,13 @@
 import React from 'react';
-import { AiFillTwitterCircle } from "react-icons/ai";
+import { AiFillTwitterCircle, AiOutlineHome, AiOutlineShopping } from "react-icons/ai";
 import { HiMail } from 'react-icons/hi';
 import { ImLocation } from 'react-icons/im';
-import { BsFacebook, BsFillTelephoneFill, BsLinkedin, } from 'react-icons/bs';
+import { BsCartCheck, BsFacebook, BsFillTelephoneFill, BsLinkedin, } from 'react-icons/bs';
 import zoomit from '../../../assets/Images/zoom.png'
 import './Footer.css'
 import { Icon } from '@iconify/react';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { GrShop } from 'react-icons/gr';
 
 const Footer = () => {
     return (
@@ -55,7 +57,47 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                {/* <nav class="navbar navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav> */}
             </footer>
+
+
+            <Navbar className='header-area d-lg-none d-md-none p-0 fixed-bottom' variant="light">
+                <Nav className="mx-auto">
+                    <Nav.Link href="/" className='text-center'>
+                        <span className='m-0'><AiOutlineHome className='f-mu-icon' /></span>
+                        <p className='m-0'>Home</p>
+                    </Nav.Link>
+
+                    <Nav.Link href="/cart"  className='text-center'>
+                        <span className='m-0'><GrShop className='f-mu-icon' /></span>
+                        <p className='m-0'>Cart</p>
+                    </Nav.Link>
+
+                    <Nav.Link href="/shop"  className='text-center'>
+                        <span className='m-0'><Icon icon="icon-park-outline:like"className='f-mu-icon' /></span>
+                        <p className='m-0'>Shop</p>
+                    </Nav.Link>
+
+
+                </Nav>
+            </Navbar>
         </div>
     );
 };

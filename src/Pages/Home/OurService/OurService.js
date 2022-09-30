@@ -18,7 +18,7 @@ const OurService = () => {
                             <p>We ship exclusively with UPS to make sure your device travels safely and quickly. Ground, 2-Day, and Overnight shipping options available.</p>
                         </div>
                     </div>
-                    <div className="col col-md-6 col-lg-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <div>
                             <MdHomeRepairService className='icon' />
                             <h6>Warranty on all repairs</h6>
@@ -26,7 +26,7 @@ const OurService = () => {
                         </div>
                     </div>
 
-                    <div className="col col-md-6 col-lg-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <div>
                             <FcSupport className='icon' />
 
@@ -35,7 +35,7 @@ const OurService = () => {
                         </div>
                     </div>
 
-                    <div className="col col-md-6 col-lg-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <div>
                             <Icon className='icon' icon="bi:card-checklist" />
                             <h6>Secure payments</h6>
