@@ -99,6 +99,19 @@
 	margin-top: 10px;
 	cursor: pointer;
 }
+
+
+.service{
+	position: absolute ;
+	top: 100px;
+	transform: translate(50%);
+}
+
+
+
+
+
+
 .search-result ul.item-list {
   display: block;
   overflow: hidden;

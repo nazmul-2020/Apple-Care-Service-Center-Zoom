@@ -68,7 +68,9 @@ const Banner = () => {
                         <div className="col-md-8 offset-md-2 col-sm-12">
                             <div className="search-box-container text-center">
                                 <ul className="nav">
-                                    <li onClick={() => setShow(!show)} className="nav-item fw-bold" ><button className='btn fw-bold border-0'>SERVICE</button></li>
+                                    <li onClick={() => setShow(!show)} className="nav-item fw-bold" >
+                                        <button className='btn fw-bold border-0'>SERVICE</button>
+                                        </li>
                                     {/* <li  onClick={() => setShowa(!showa)} className="nav-item"><button className='btn'>SHOP</button></li> */}
                                 </ul>
 

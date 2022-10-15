@@ -10,7 +10,7 @@ import'./BusinessSummary.css'
 const BusinessSummary = () => {
     const { CountOn, setCountOn } = useState(false);
     return (
-        <div className='aboutBanner'>
+        <div className='aboutBanner pt-4'>
             <div className='container'>
                 <h1 className=' text-center'>Business <span className='text-info'>Summary</span></h1>
 

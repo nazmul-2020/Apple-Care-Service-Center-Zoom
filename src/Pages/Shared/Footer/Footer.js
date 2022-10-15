@@ -1,12 +1,12 @@
 import React from 'react';
-import { AiFillTwitterCircle, AiOutlineHome, AiOutlineShopping } from "react-icons/ai";
+import { AiFillTwitterCircle, AiOutlineHome, } from "react-icons/ai";
 import { HiMail } from 'react-icons/hi';
 import { ImLocation } from 'react-icons/im';
-import { BsCartCheck, BsFacebook, BsFillTelephoneFill, BsLinkedin, } from 'react-icons/bs';
+import { BsFacebook, BsFillTelephoneFill } from 'react-icons/bs';
 import zoomit from '../../../assets/Images/zoom.png'
 import './Footer.css'
 import { Icon } from '@iconify/react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import { GrShop } from 'react-icons/gr';
 
 const Footer = () => {
@@ -85,13 +85,13 @@ const Footer = () => {
                         <p className='m-0'>Home</p>
                     </Nav.Link>
 
-                    <Nav.Link href="/cart"  className='text-center'>
+                    <Nav.Link href="/cart" className='text-center'>
                         <span className='m-0'><GrShop className='f-mu-icon' /></span>
                         <p className='m-0'>Cart</p>
                     </Nav.Link>
 
-                    <Nav.Link href="/shop"  className='text-center'>
-                        <span className='m-0'><Icon icon="icon-park-outline:like"className='f-mu-icon' /></span>
+                    <Nav.Link href="/shop" className='text-center'>
+                        <span className='m-0'><Icon icon="icon-park-outline:like" className='f-mu-icon' /></span>
                         <p className='m-0'>Shop</p>
                     </Nav.Link>
 

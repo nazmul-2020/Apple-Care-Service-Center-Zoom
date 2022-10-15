@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/img/logo.png'
 import Liquid from '../../../assets/img/liquid.jpg'
+import iphone from '../../../assets/img/iphone.jpg'
+import ipad from '../../../assets/img/ipad.jpg'
+import imac from '../../../assets/img/imac.jpg'
+import Watch from '../../../assets/img/watch.jpg'
+import Unlock from '../../../assets/img/iphone-lock.jpg'
+import Battery from '../../../assets/img/battery-replacement.jpg'
+import rear from '../../../assets/img/rear-case.jpg'
+// import Liquid from '../../../assets/img/liquid.jpg'
 
 import './Header.css'
 
 const Header = () => {
+
+    const [show, setShow] = useState(false);
+
     return (
         <div>
             {/* <Navbar bg="light" expand="lg">
@@ -82,7 +93,7 @@ const Header = () => {
                 </Container>
             </Navbar>  */}
 
-            <div className="header-area sticky-top">
+            <div className="header-area  sticky-top">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -98,6 +109,10 @@ const Header = () => {
                                     </button>
                                     <div className="collapse navbar-collapse" id="navbarNav">
                                         <ul className="navbar-nav ms-auto">
+                                            <li onClick={() => setShow(!show)} className="nav-item nav-link">
+                                                {/* <a className="nav-link" href="/aboutUs">Service</a> */}
+                                            Service</li>
+                                            <li className="nav-item"><a className="nav-link" href="/contact">Contact Us</a></li>
                                             <li className="nav-item"><a className="nav-link" href="/aboutUs">About Us</a></li>
                                             <li className="nav-item"><a className="nav-link" href="/contact">Contact Us</a></li>
                                             <li className="nav-item"><a className="nav-link" href="/shop">Shop</a></li>
@@ -121,6 +136,52 @@ const Header = () => {
                             </nav>
                         </div>
                     </div>
+                                    {show ?
+                                            <div className="search-result searchServiceResult service w-50 mx-auto" style={{ background: "rgba(255, 255, 255, 0.500)" }}
+                                            >
+                                                <ul className="item-list serviceList">
+                                                    <li><Link to='/iPhone'>
+                                                        <img className='rounded' src={iphone} alt="" />
+                                                        <p>iPhone Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/iPad'>
+                                                        <img className='rounded' src={ipad} alt="" />
+                                                        <p>iPad Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/macBook'>
+                                                        <img className='rounded' src={imac} alt="" />
+                                                        <p>iMac Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/watch'>
+                                                        <img className='rounded' src={Watch} alt="" />
+                                                        <p>Watch Repair 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'>
+                                                        <img className='rounded' src={Unlock} alt="" />
+                                                        <p>iPhone Unlock 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'>
+                                                        <img className='rounded' src={Battery} alt="" />
+                                                        <p>Battery Replacement 2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'>
+                                                        <img className='rounded' src={rear} alt="" />
+                                                        <p>Rear Case Replacement2</p>
+                                                    </Link></li>
+
+                                                    <li><Link to='/'>
+                                                        <img className='rounded' src={Liquid} alt="" />
+                                                        <p>Liquid Damage 2</p>
+                                                    </Link></li>
+                                                </ul>
+                                            </div>
+                                            : null}
                     {/* <!-- Row close --> */}
                 </div>
                 {/* <!-- Container close --> */}
